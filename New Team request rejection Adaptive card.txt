@@ -1,0 +1,48 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "New Team request is rejected",
+            "spacing": "Medium",
+            "size": "Large",
+            "weight": "Bolder"
+        },
+        {
+            "type": "FactSet",
+            "facts": [
+               {
+                    "title": "Requested Team name:",
+                    "value": "@{body('Update_item_-_request_rejected_as_duplicate')['Title']}"
+               },
+               {
+                    "title": "Formatted Team name:",
+                    "value": "@{body('Update_item_-_request_rejected_as_duplicate')?['Team_x0020_Name']}"
+               },
+               {
+                    "title": "Requested on:",
+                    "value": "@{body('Update_item_-_request_rejected_as_duplicate')?['Created']}"
+                },
+               {
+                    "title": "Reason:",
+                    "value": "Your request for a new Team has been rejected as the formatted Team name '@{body('Update_item_-_request_rejected_as_duplicate')?['Team_x0020_Name']}' matches an existing Team SharePoint site URL so cannot be created."
+                }
+            ]
+        },
+	    {
+            "type": "TextBlock",
+            "text": "Please submit your request again",
+            "weight": "Bolder"
+        }
+    ],
+"actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Request a new Team",
+            "url": "https://teams.microsoft.com/_#/apps/a9cf4ce6-6d12-47d2-a64a-16ee81d20154/sections/IntranetTabID",
+            "style": "positive"
+        }
+    ],
+    "version": "1.2",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json"
+}
