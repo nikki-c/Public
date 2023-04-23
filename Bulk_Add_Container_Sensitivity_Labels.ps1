@@ -1,7 +1,7 @@
 ######################################################################################################
 # Bulk update container sensitivity label to Sharepoint sites based on CSV input
 # If the site has a Microsoft 365 Group behind it, the label will be placed on the Microsoft 365 Group
-# CSV format: 2 columns URL, LabelID. Note must use the sensitivyt label guid
+# CSV format: 2 columns URL, LabelID. Note must use the sensitivity label guid
 # Use PnP PowerShell. Requires V7 PowerShell
 # Last updated 23 April 2023
 ######################################################################################################
