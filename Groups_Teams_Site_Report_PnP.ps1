@@ -1,15 +1,20 @@
-﻿#########################------------Microsoft 365 Groups, Teams and Sites Summary Report -------------##########################
-## Uses PnP PowerShell 
-## Reports on Groups, Teams and Sites access permissions
-## Site info = Title, Description, URL, Template, Owner, Sensitivity label, Site sharing, Conditional access, File sharing links, Sensitivity label name
-## Group info = Group id, Privacy, Group Type, Group owners, Allowed to add guests, Guest count
-##################################################################################################################################  
+﻿#########################------------Microsoft 365 Groups, Teams and Sites Summary Report -------------###############################################
+# Uses PnP PowerShell 
+# Reports on Groups, Teams and Sites access permissions
+# Site info = Title, Description, URL, Template, Owner, Sensitivity label, Site sharing, Conditional access, File sharing links, Sensitivity label name
+# Group info = Group id, Privacy, Group Type, Group owners, Allowed to add guests, Guest count
+########################################################################################################################################################  
+
+#If you need to install and Register PnP PowerShell
+Install-Module PnP.PowerShell
+Import-Module PnP.PowerShell
+Register-PnPManagementShellAccess
 
 #Update the file path of where you want the file to be stored
-$exportLocation = "C:\Temp\Groups_Sites_Report.csv"
+$exportLocation = "<UPDATE TO ADD CSV FILE PATH>"
 
 #Config Variables
-$orgName="<>YOURDOMAIN"
+$orgName="<UPDATE TO ADD YOUR DOMAIN>"
 $tenantURL = "https://$orgName.sharepoint.com"
 
 #Connect to PNP Powershell with admin permissions. You must use -Interactive if you account uses MFA
