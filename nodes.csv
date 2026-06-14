@@ -55,6 +55,35 @@ app_agents_m365,Agents in Microsoft 365,APP,Out-of-the-box agents embedded in M3
 app_copilot_lite_agents,Microsoft 365 Copilot (Lite) Agents,APP,"Prebuilt agents for SharePoint, OneDrive, etc.",AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
 app_knowledge_agent,Knowledge Agent,APP,Agent surfacing insights from SharePoint content via Copilot.,AI;Copilot,,,Microsoft 365 Copilot,,,,,
 # ============================================================
+# APPS — Copilot Studio & Agents (Detailed)
+# ============================================================
+app_declarative_agent,Declarative Agent,APP,Custom agent built in Copilot Studio with instructions and knowledge sources.,AI;Copilot;Agents,https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-declarative-agent,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_custom_engine_agent,Custom Engine Agent,APP,Agent using a custom AI model (Azure OpenAI or other) via Copilot Studio.,AI;Copilot;Agents,https://learn.microsoft.com/en-us/microsoft-365-copilot/extensibility/overview-custom-engine-agent,,Microsoft 365 Copilot,,,,,
+app_autonomous_agent,Autonomous Agent,APP,Agent that runs independently on triggers without user prompting.,AI;Copilot;Agents,,,Microsoft 365 Copilot,,,,,
+app_sharepoint_agent,SharePoint Agent,APP,Agent scoped to a specific SharePoint site for Q&A over site content.,AI;Copilot;Agents,https://learn.microsoft.com/en-us/sharepoint/sharepoint-copilot-best-practices,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_teams_agent,Teams Agent (Message Extension),APP,Agent surfaced as a message extension or bot in Teams.,AI;Copilot;Agents,,,Microsoft 365 Copilot,,,,,
+app_employee_self_service_agent,Employee Self-Service Agent,APP,Prebuilt agent for HR and IT self-service scenarios.,AI;Copilot;Agents,,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+# ============================================================
+# FEATURES — Copilot Studio
+# ============================================================
+feat_studio_topics,Topics,FEATURE,Conversation flows defining agent behaviour and responses.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_actions,Actions,FEATURE,Connectors to external systems (Power Automate/APIs) triggered by agents.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_knowledge,Knowledge Sources,FEATURE,Content sources (SharePoint/files/Dataverse/websites) grounding agent responses.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_generative_ai,Generative Answers,FEATURE,AI-generated responses from knowledge sources without manual topic authoring.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_channels,Channels (Publishing),FEATURE,Deployment channels for agents (Teams/web/Copilot Chat/custom).,AI;Copilot;Agents,,,,,,,,,
+feat_studio_analytics,Agent Analytics,FEATURE,Usage and performance analytics for published agents.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_authentication,Agent Authentication,FEATURE,Identity configuration for agents (SSO/OAuth/anonymous).,AI;Copilot;Agents;Identity,,,,,,,,,
+feat_studio_dlp,Agent DLP,FEATURE,Data loss prevention controls for agent connectors.,AI;Copilot;Agents;DLP,,,,,,,,,
+feat_studio_plugins,Plugins & Connectors,FEATURE,Pre-built and custom connectors extending agent capabilities.,AI;Copilot;Agents,,,,,,,,,
+feat_studio_orchestrator,Copilot Orchestrator,FEATURE,Runtime that routes user prompts to the right agent/plugin/skill.,AI;Copilot;Agents,,,,,,,,,
+# ============================================================
+# FEATURES — Agent Capabilities
+# ============================================================
+feat_agent_grounding,Agent Grounding,FEATURE,Process of retrieving relevant content to inform agent responses.,AI;Copilot;Agents,,,,,,,,,
+feat_agent_memory,Agent Memory,FEATURE,Conversation history and context retention within a session.,AI;Copilot;Agents,,,,,,,,,
+feat_agent_guardrails,Agent Guardrails,FEATURE,Safety filters and content moderation for agent outputs.,AI;Copilot;Agents;Security,,,,,,,,,
+feat_agent_handoff,Human Handoff,FEATURE,Escalation from agent to a live human agent.,AI;Copilot;Agents,,,,,,,,,
+# ============================================================
 # APPS — Viva
 # ============================================================
 app_viva_engage,Viva Engage,APP,Social networking and community platform (formerly Yammer).,Collaboration,https://adoption.microsoft.com/en-gb/viva/engage/,,Microsoft Viva,,,,,
@@ -308,3 +337,123 @@ pol_label_confidential,Confidential Label,POLICY,Sensitivity label applying encr
 pol_label_internal,Internal Only Label,POLICY,Sensitivity label marking content as internal only.,Sensitivity_Label,,,,,,,,
 pol_dlp_credit_card,Credit Card DLP Rule,POLICY,DLP rule detecting credit card numbers.,DLP,,,,,,,,
 pol_ca_require_mfa,Require MFA Policy,POLICY,Conditional Access policy requiring MFA for all users.,Conditional_Access,,,,,,,,
+# ============================================================
+# APPS — Security & Identity
+# ============================================================
+app_entra_id,Microsoft Entra ID,APP,Cloud identity and access management service.,Identity;Security,https://learn.microsoft.com/en-us/entra/fundamentals/whatis,https://learn.microsoft.com/en-gb/office365/servicedescriptions/azure-active-directory,Microsoft 365,,,,,
+app_defender_endpoint,Microsoft Defender for Endpoint,APP,Endpoint detection and response (EDR) platform.,Security,https://learn.microsoft.com/en-us/defender-endpoint/,,Microsoft 365,,,,Microsoft 365 E5,
+app_defender_cloud_apps,Microsoft Defender for Cloud Apps,APP,Cloud access security broker (CASB) for shadow IT and app governance.,Security,https://learn.microsoft.com/en-us/defender-cloud-apps/,,Microsoft 365,,,,Microsoft 365 E5,
+app_defender_identity,Microsoft Defender for Identity,APP,Identity threat detection from on-premises Active Directory signals.,Security,https://learn.microsoft.com/en-us/defender-for-identity/,,Microsoft 365,,,,Microsoft 365 E5,
+# ============================================================
+# APPS — Additional M365
+# ============================================================
+app_microsoft_search,Microsoft Search,APP,Unified search experience across all M365 content.,Search,https://learn.microsoft.com/en-us/microsoftsearch/overview-microsoft-search,,Microsoft 365,,,,,
+app_teams_phone,Teams Phone,APP,Cloud-based phone system with PSTN calling.,Voice,https://learn.microsoft.com/en-us/microsoftteams/what-is-phone-system-in-office-365,,Microsoft 365,,,,Teams Phone license,
+app_teams_rooms,Teams Rooms,APP,Meeting room devices running Teams meetings.,Meetings,https://learn.microsoft.com/en-us/microsoftteams/rooms/,,Microsoft 365,,,,Teams Rooms license,
+app_shifts,Shifts,APP,Schedule management for frontline workers.,Frontline,https://learn.microsoft.com/en-us/microsoftteams/expand-teams-across-your-org/shifts-for-teams-landing-page,,Microsoft 365,,,,,
+app_approvals,Approvals,APP,Approval workflows in Teams.,Collaboration,https://learn.microsoft.com/en-us/microsoftteams/approval-admin,,Microsoft 365,,,,,
+app_tasks,Tasks by Planner and To Do,APP,Unified task view in Teams combining Planner and To Do.,Collaboration,,,Microsoft 365,,,,,
+# ============================================================
+# FEATURES — Teams Meetings & Events
+# ============================================================
+feat_teams_webinar,Webinar,FEATURE,Structured registration-based online events in Teams.,Meetings,,,,,,,,,
+feat_teams_town_hall,Town Hall,FEATURE,Large-scale broadcast events in Teams (replaces Live Events).,Meetings,,,,,,,,,
+feat_teams_live_events,Live Events (Legacy),FEATURE,Legacy broadcast feature replaced by Town Hall.,Meetings,,,,,,,,,
+feat_teams_queues,Queues App,FEATURE,Call queue management for Teams Phone.,Voice,,,,,,,,,
+feat_teams_breakout_rooms,Breakout Rooms,FEATURE,Sub-meeting rooms within Teams meetings.,Meetings,,,,,,,,,
+feat_teams_together_mode,Together Mode,FEATURE,Virtual shared space for Teams meetings.,Meetings,,,,,,,,,
+feat_teams_intelligent_recap,Intelligent Recap,FEATURE,AI-generated meeting summary with action items.,AI;Meetings,,,,,,,,Teams Premium,
+# ============================================================
+# FEATURES — SharePoint Advanced
+# ============================================================
+feat_sp_spfx,SharePoint Framework (SPFx),FEATURE,Development framework for SharePoint customisations.,,,,,,,,,,
+feat_sp_info_barriers,Information Barriers,FEATURE,Prevents communication between specific user segments.,Compliance;Security,,,,,,,,,
+feat_sp_restricted_access,Restricted Access Control,FEATURE,Restricts access to SharePoint sites to specific users.,Security,,,,,,,,Microsoft 365 E5,
+feat_sp_site_lifecycle,Site Lifecycle Policies,FEATURE,Automated inactive site management and cleanup.,Governance,,,,,,,,,
+feat_sp_file_requests,File Requests,FEATURE,Request files from external users without granting access.,,,,,,,,,,
+# ============================================================
+# FEATURES — Exchange Advanced
+# ============================================================
+feat_exo_litigation_hold,Litigation Hold,FEATURE,Preserves all mailbox content for legal purposes.,Compliance,,,,,,,,,
+feat_exo_in_place_hold,In-Place Hold,FEATURE,Query-based hold on specific mailbox content.,Compliance,,,,,,,,,
+feat_exo_auto_expanding_archive,Auto-Expanding Archive,FEATURE,Automatically grows archive mailbox beyond 100 GB.,Storage;Compliance,,,,,,,,,
+feat_exo_focused_inbox,Focused Inbox,FEATURE,AI-sorted inbox prioritising important messages.,AI,,,,,,,,,
+feat_exo_shared_mailbox,Shared Mailbox,FEATURE,Mailbox shared by multiple users without license.,Collaboration,,,,,,,,,
+feat_exo_room_finder,Room Finder,FEATURE,Finds available meeting rooms for scheduling.,,,,,,,,,,
+# ============================================================
+# FEATURES — OneDrive Advanced
+# ============================================================
+feat_od_shortcut,OneDrive Shortcuts,FEATURE,Add shortcuts to shared libraries in OneDrive view.,Collaboration,,,,,,,,,
+feat_od_file_requests,File Requests,FEATURE,Request file uploads from others to your OneDrive.,Collaboration,,,,,,,,,
+feat_od_offline_files,Offline Files,FEATURE,Mark files for offline access on devices.,Storage,,,,,,,,,
+# ============================================================
+# COMPLIANCE FEATURES — Additional Purview
+# ============================================================
+comp_info_barriers,Information Barriers,COMPLIANCE_FEATURE,Prevents communication and collaboration between user segments.,Compliance;Security,,,,,,,,Microsoft 365 E5,
+comp_data_lifecycle,Data Lifecycle Management,COMPLIANCE_FEATURE,Automates retention and deletion of content.,Compliance;Retention,,,,,,,,,
+comp_pam,Privileged Access Management,COMPLIANCE_FEATURE,Just-in-time access for administrative tasks in M365.,Compliance;Security,,,,,,,,Microsoft 365 E5,
+comp_customer_lockbox,Customer Lockbox,COMPLIANCE_FEATURE,Requires customer approval for Microsoft support access to data.,Compliance;Security,,,,,,,,Microsoft 365 E5,
+comp_content_search,Content Search,COMPLIANCE_FEATURE,Search across M365 locations for specific content.,Compliance;eDiscovery,,,,,,,,,
+comp_data_connectors,Data Connectors,COMPLIANCE_FEATURE,Import third-party data into M365 for compliance.,Compliance,,,,,,,,,
+comp_sit,Sensitive Information Types,COMPLIANCE_FEATURE,Pattern-based classifiers for detecting sensitive data.,DLP;Compliance,,,,,,,,,
+comp_trainable_classifiers,Trainable Classifiers,COMPLIANCE_FEATURE,ML-based content classifiers trained on org data.,AI;Compliance,,,,,,,,Microsoft 365 E5,
+comp_exact_data_match,Exact Data Match,COMPLIANCE_FEATURE,Fingerprint-based detection matching exact data values.,DLP;Compliance,,,,,,,,Microsoft 365 E5,
+# ============================================================
+# SECURITY FEATURES — Additional
+# ============================================================
+sec_attack_simulation,Attack Simulation Training,SECURITY_FEATURE,Phishing simulation and security awareness training.,Security,,,,,,,,Microsoft 365 E5,
+sec_threat_explorer,Threat Explorer,SECURITY_FEATURE,Real-time threat investigation in Defender for O365.,Security,,,,,,,,Microsoft 365 E5,
+sec_aip_scanner,AIP Scanner,SECURITY_FEATURE,On-premises file scanner for sensitivity labels.,Security;Compliance,,,,,,,,,
+sec_easm,External Attack Surface Management,SECURITY_FEATURE,Discovers and monitors internet-facing assets.,Security,,,,,,,,,
+sec_data_security_posture,Data Security Posture Management,SECURITY_FEATURE,Discovers and protects sensitive data across multi-cloud.,Security;Compliance,,,,,,,,,
+# ============================================================
+# COPILOT EXPERIENCES — Additional
+# ============================================================
+copilot_planner,Copilot in Planner,COPILOT_EXPERIENCE,AI assistant for task and plan creation.,AI;Copilot,,,,Planner,,,,Microsoft 365 Copilot,
+copilot_stream,Copilot in Stream,COPILOT_EXPERIENCE,AI assistant for video summarisation.,AI;Copilot,,,,Stream,,,,Microsoft 365 Copilot,
+copilot_forms,Copilot in Forms,COPILOT_EXPERIENCE,AI assistant for survey creation.,AI;Copilot,,,,Forms,,,,Microsoft 365 Copilot,
+copilot_viva_engage,Copilot in Viva Engage,COPILOT_EXPERIENCE,AI assistant for community posts and summaries.,AI;Copilot,,,,Viva Engage,,,,Microsoft 365 Copilot,
+# ============================================================
+# TECHNOLOGY — Additional
+# ============================================================
+tech_spfx,SharePoint Framework,TECHNOLOGY,Client-side development model for SharePoint customisations.,,,,,,,,,,
+tech_power_fx,Power Fx,TECHNOLOGY,Low-code formula language for Power Platform.,,,,,,,,,,
+tech_azure_openai,Azure OpenAI Service,TECHNOLOGY,Cloud-hosted LLMs (GPT-4) powering Copilot.,,,,,,,,,,
+tech_rag,Retrieval Augmented Generation,TECHNOLOGY,Pattern combining search retrieval with LLM generation.,,,,,,,,,,
+tech_substrate_sdf,Substrate Data Fabric,TECHNOLOGY,Unified data layer connecting M365 signals for intelligence.,,,,,,,,,,
+# ============================================================
+# SERVICES — Additional
+# ============================================================
+svc_entra,Entra ID Service,SERVICE,Identity platform for authentication and authorisation.,Identity,,,,,,,,
+svc_graph_api,Microsoft Graph API,SERVICE,REST API endpoint for accessing M365 data programmatically.,,,,,,,,,,
+svc_search,Microsoft Search Service,SERVICE,Unified search indexing across M365 content.,,,,,,,,,,
+svc_notifications,M365 Notifications Service,SERVICE,Push notification delivery for M365 apps.,,,,,,,,,,
+# ============================================================
+# DATA TYPES — Additional
+# ============================================================
+data_meeting_recording,Meeting Recording,DATA_TYPE,Video file of a Teams meeting.,Meetings;Storage,,,,,,,,".mp4"
+data_transcription,Meeting Transcription,DATA_TYPE,Text transcript of a Teams meeting.,Meetings;Compliance,,,,,,,,".vtt;.docx"
+data_loop_file,Loop File,DATA_TYPE,Collaborative document in Loop format.,Collaboration;Real_Time,,,,,,,,".loop;.fluid"
+data_whiteboard_file,Whiteboard File,DATA_TYPE,Digital whiteboard canvas file.,Collaboration,,,,,,,,".whiteboard"
+data_stream_video,Stream Video,DATA_TYPE,Video file managed in Stream on SharePoint.,Storage,,,,,,,,".mp4"
+data_form_response,Form Response,DATA_TYPE,Individual response to a Forms survey.,,,,,,,,,,
+data_planner_task,Planner Task,DATA_TYPE,Task item in Microsoft Planner.,Collaboration,,,,,,,,,
+data_power_automate_flow,Power Automate Flow,DATA_TYPE,Workflow definition in Power Automate.,Power_Platform,,,,,,,,,
+# ============================================================
+# LICENSES — Additional
+# ============================================================
+lic_f1,Microsoft 365 F1,LICENSE,Frontline worker license with web/mobile apps only.,,,,,,,,,,
+lic_f3,Microsoft 365 F3,LICENSE,Frontline worker license with desktop apps.,,,,,,,,,,
+lic_teams_phone,Teams Phone Standard,LICENSE,Add-on for PSTN calling in Teams.,,,,,,,,,,
+lic_teams_rooms,Teams Rooms,LICENSE,License for Teams Rooms devices.,,,,,,,,,,
+lic_power_automate_premium,Power Automate Premium,LICENSE,Add-on for premium connectors and AI in Power Automate.,,,,,,,,,,
+lic_copilot_studio,Copilot Studio,LICENSE,License for building custom agents.,,,,,,,,,,
+lic_entra_p2,Microsoft Entra ID P2,LICENSE,Premium identity features (PIM and ID Protection).,,,,,,,,,,
+# ============================================================
+# ADMIN ROLES — Additional
+# ============================================================
+role_knowledge_admin,Knowledge Administrator,ADMIN_ROLE,Manages Topics and knowledge settings.,,,,,,,,,,
+role_search_admin,Search Administrator,ADMIN_ROLE,Manages Microsoft Search configuration.,,,,,,,,,,
+role_billing_admin,Billing Administrator,ADMIN_ROLE,Manages subscriptions and billing.,,,,,,,,,,
+role_groups_admin,Groups Administrator,ADMIN_ROLE,Manages all group types in the tenant.,,,,,,,,,,
+role_authentication_admin,Authentication Administrator,ADMIN_ROLE,Manages authentication methods and MFA settings.,,,,,,,,,,

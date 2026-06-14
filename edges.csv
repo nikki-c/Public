@@ -415,3 +415,279 @@ store_onedrive,geo_eu,RESIDES_IN_GEO,directed,OneDrive data can reside in EU.,Mu
 store_onedrive,geo_us,RESIDES_IN_GEO,directed,OneDrive data can reside in US.,Multi_Geo,,,Data Residency
 store_teams_service,geo_eu,RESIDES_IN_GEO,directed,Teams data can reside in EU.,Multi_Geo,,,Data Residency
 store_teams_service,geo_us,RESIDES_IN_GEO,directed,Teams data can reside in US.,Multi_Geo,,,Data Residency
+# ============================================================
+# COPILOT STUDIO & AGENTS — Structure
+# ============================================================
+app_copilot_studio,feat_studio_topics,HAS_COMPONENT,directed,Copilot Studio includes Topics.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_actions,HAS_COMPONENT,directed,Copilot Studio includes Actions.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_knowledge,HAS_COMPONENT,directed,Copilot Studio includes Knowledge Sources.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_generative_ai,HAS_COMPONENT,directed,Copilot Studio includes Generative Answers.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_channels,HAS_COMPONENT,directed,Copilot Studio includes publishing channels.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_analytics,HAS_COMPONENT,directed,Copilot Studio includes agent analytics.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_authentication,HAS_COMPONENT,directed,Copilot Studio includes authentication config.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_dlp,HAS_COMPONENT,directed,Copilot Studio includes DLP controls.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_plugins,HAS_COMPONENT,directed,Copilot Studio includes plugins and connectors.,Copilot;Agents,,,Copilot
+app_copilot_studio,feat_studio_orchestrator,HAS_COMPONENT,directed,Copilot Studio orchestrator routes prompts.,Copilot;Agents,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Agent Types (Suite Membership)
+# ============================================================
+app_declarative_agent,suite_copilot,PART_OF_SUITE,directed,Declarative Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+app_custom_engine_agent,suite_copilot,PART_OF_SUITE,directed,Custom Engine Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+app_autonomous_agent,suite_copilot,PART_OF_SUITE,directed,Autonomous Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+app_sharepoint_agent,suite_copilot,PART_OF_SUITE,directed,SharePoint Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+app_teams_agent,suite_copilot,PART_OF_SUITE,directed,Teams Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+app_employee_self_service_agent,suite_copilot,PART_OF_SUITE,directed,Employee Self-Service Agent is part of the Copilot suite.,Copilot;Agents,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Agent Creation Relationships
+# ============================================================
+app_declarative_agent,app_copilot_studio,PROVISIONED_BY,directed,Declarative agents built in Copilot Studio.,Copilot;Agents,,,Copilot
+app_custom_engine_agent,app_copilot_studio,PROVISIONED_BY,directed,Custom engine agents built in Copilot Studio.,Copilot;Agents,,,Copilot
+app_autonomous_agent,app_copilot_studio,PROVISIONED_BY,directed,Autonomous agents built in Copilot Studio.,Copilot;Agents,,,Copilot
+app_sharepoint_agent,app_copilot_studio,PROVISIONED_BY,directed,SharePoint agents built via Copilot Studio or SharePoint UI.,Copilot;Agents,,,Copilot
+app_teams_agent,app_copilot_studio,PROVISIONED_BY,directed,Teams agents built in Copilot Studio.,Copilot;Agents,,,Copilot
+app_employee_self_service_agent,app_copilot_studio,PROVISIONED_BY,directed,Self-service agents prebuilt by Microsoft via Studio.,Copilot;Agents,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Technology & Architecture
+# ============================================================
+app_copilot_studio,store_dataverse,DATA_STORED_IN,directed,Copilot Studio agent definitions stored in Dataverse.,Copilot;Agents,,,Copilot
+app_copilot_studio,tech_azure_openai,POWERED_BY,directed,Copilot Studio uses Azure OpenAI for generative answers.,Copilot;AI,,,Copilot
+feat_studio_orchestrator,tech_semantic_index,GROUNDED_BY,directed,Orchestrator uses Semantic Index for grounding.,Copilot;AI,,,Copilot
+feat_studio_orchestrator,tech_graph,POWERED_BY,directed,Orchestrator uses Microsoft Graph for data access.,Copilot;AI,,,Copilot
+feat_studio_actions,app_power_automate,INTEGRATES_WITH,directed,Studio Actions can trigger Power Automate flows.,Copilot;Agents;Power_Platform,,,Copilot
+feat_studio_knowledge,store_sharepoint,INTEGRATES_WITH,directed,Knowledge Sources can index SharePoint content.,Copilot;Agents,,,Copilot
+feat_studio_knowledge,store_onedrive,INTEGRATES_WITH,directed,Knowledge Sources can index OneDrive content.,Copilot;Agents,,,Copilot
+feat_studio_knowledge,store_dataverse,INTEGRATES_WITH,directed,Knowledge Sources can query Dataverse tables.,Copilot;Agents,,,Copilot
+feat_studio_knowledge,tech_graph_connectors,INTEGRATES_WITH,directed,Knowledge Sources can use Graph Connectors for external data.,Copilot;Agents,,,Copilot
+feat_studio_plugins,tech_copilot_plugins,POWERED_BY,directed,Studio plugins built on Copilot plugin framework.,Copilot;Agents,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Agent Capabilities
+# ============================================================
+app_declarative_agent,feat_agent_grounding,HAS_COMPONENT,directed,Declarative agents use grounding for responses.,Copilot;Agents,,,Copilot
+app_declarative_agent,feat_agent_memory,HAS_COMPONENT,directed,Declarative agents maintain conversation memory.,Copilot;Agents,,,Copilot
+app_declarative_agent,feat_agent_guardrails,HAS_COMPONENT,directed,Declarative agents have safety guardrails.,Copilot;Agents,,,Copilot
+app_custom_engine_agent,feat_agent_grounding,HAS_COMPONENT,directed,Custom engine agents use custom grounding.,Copilot;Agents,,,Copilot
+app_autonomous_agent,feat_studio_actions,DEPENDS_ON,directed,Autonomous agents depend on actions for execution.,Copilot;Agents,,,Copilot
+app_declarative_agent,feat_agent_handoff,HAS_COMPONENT,directed,Declarative agents can hand off to humans.,Copilot;Agents,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Publishing Channels
+# ============================================================
+feat_studio_channels,app_teams,INTEGRATES_WITH,directed,Agents can be published to Teams.,Copilot;Agents;Teams,,,Copilot
+feat_studio_channels,app_copilot_app,INTEGRATES_WITH,directed,Agents surface in Microsoft 365 Copilot app.,Copilot;Agents,,,Copilot
+app_sharepoint_agent,app_sharepoint,INTEGRATES_WITH,directed,SharePoint Agent integrates with SharePoint sites.,Copilot;Agents;SharePoint_Online,,,Copilot
+app_teams_agent,app_teams,INTEGRATES_WITH,directed,Teams Agent surfaces in Teams as bot/extension.,Copilot;Agents;Teams,,,Copilot
+# ============================================================
+# COPILOT STUDIO — Licensing
+# ============================================================
+app_declarative_agent,lic_copilot,REQUIRES_LICENSE,directed,Declarative agents require M365 Copilot license to use.,Licensing,,,Licensing
+app_custom_engine_agent,lic_copilot_studio,REQUIRES_LICENSE,directed,Custom engine agents require Copilot Studio license.,Licensing,,,Licensing
+app_autonomous_agent,lic_copilot_studio,REQUIRES_LICENSE,directed,Autonomous agents require Copilot Studio license.,Licensing,,,Licensing
+app_sharepoint_agent,lic_copilot,REQUIRES_LICENSE,directed,SharePoint Agent requires M365 Copilot license.,Licensing,,,Licensing
+app_agents_m365,lic_copilot,REQUIRES_LICENSE,directed,Agents in M365 require Copilot license.,Licensing,,,Licensing
+app_copilot_lite_agents,lic_e3,REQUIRES_LICENSE,directed,Lite Agents available with base M365 license.,Licensing,,,Licensing
+# ============================================================
+# COPILOT STUDIO — Identity & Governance
+# ============================================================
+app_copilot_studio,svc_entra,DEPENDS_ON_SERVICE,directed,Copilot Studio depends on Entra ID for auth.,Identity,,,Identity
+app_copilot_studio,role_power_platform_admin,MANAGED_BY,directed,Copilot Studio managed by Power Platform Admin.,Governance,,,Governance
+feat_studio_dlp,comp_dlp_policy,INTEGRATES_WITH,directed,Studio DLP enforces org-wide DLP policies on agents.,Copilot;Agents;DLP,,,Compliance
+# ============================================================
+# COPILOT STUDIO — Prebuilt Agents Detail
+# ============================================================
+app_knowledge_agent,app_sharepoint,INTEGRATES_WITH,directed,Knowledge Agent grounded by SharePoint content.,Copilot;Agents,,,Copilot
+app_knowledge_agent,tech_semantic_index,GROUNDED_BY,directed,Knowledge Agent uses Semantic Index for retrieval.,Copilot;Agents,,,Copilot
+app_employee_self_service_agent,store_dataverse,DATA_STORED_IN,directed,Self-service agent config stored in Dataverse.,Copilot;Agents,,,Copilot
+app_employee_self_service_agent,app_teams,INTEGRATES_WITH,directed,Self-service agent surfaces in Teams.,Copilot;Agents;Teams,,,Copilot
+# ============================================================
+# SECURITY APPS — Suite Membership & Relationships
+# ============================================================
+app_entra_id,suite_m365,PART_OF_SUITE,directed,Entra ID is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_defender_endpoint,suite_defender,PART_OF_SUITE,directed,Defender for Endpoint is part of Defender suite.,Security,,,Security
+app_defender_cloud_apps,suite_defender,PART_OF_SUITE,directed,Defender for Cloud Apps is part of Defender suite.,Security,,,Security
+app_defender_identity,suite_defender,PART_OF_SUITE,directed,Defender for Identity is part of Defender suite.,Security,,,Security
+app_defender_endpoint,lic_e5,REQUIRES_LICENSE,directed,Defender for Endpoint requires E5.,Licensing,,,Licensing
+app_defender_cloud_apps,lic_e5,REQUIRES_LICENSE,directed,Defender for Cloud Apps requires E5.,Licensing,,,Licensing
+app_defender_identity,lic_e5,REQUIRES_LICENSE,directed,Defender for Identity requires E5.,Licensing,,,Licensing
+# ============================================================
+# TEAMS — Additional Components & Features
+# ============================================================
+app_teams,feat_teams_webinar,HAS_COMPONENT,directed,Teams includes webinar capability.,Teams,,,Teams
+app_teams,feat_teams_town_hall,HAS_COMPONENT,directed,Teams includes town hall capability.,Teams,,,Teams
+app_teams,feat_teams_live_events,HAS_COMPONENT,directed,Teams includes live events (legacy).,Teams,,,Teams
+app_teams,feat_teams_breakout_rooms,HAS_COMPONENT,directed,Teams includes breakout rooms.,Teams,,,Teams
+app_teams,feat_teams_together_mode,HAS_COMPONENT,directed,Teams includes Together Mode.,Teams,,,Teams
+app_teams,feat_teams_intelligent_recap,HAS_COMPONENT,directed,Teams includes Intelligent Recap.,Teams,,,Teams
+app_teams_phone,feat_teams_queues,HAS_COMPONENT,directed,Teams Phone includes queues app.,Teams,,,Teams
+app_teams_phone,app_teams,INTEGRATES_WITH,directed,Teams Phone integrates with Teams.,Teams;Voice,,,Teams
+app_teams_phone,lic_teams_phone,REQUIRES_LICENSE,directed,Teams Phone requires Teams Phone license.,Licensing,,,Licensing
+app_teams_rooms,app_teams,INTEGRATES_WITH,directed,Teams Rooms integrates with Teams.,Teams;Meetings,,,Teams
+app_teams_rooms,lic_teams_rooms,REQUIRES_LICENSE,directed,Teams Rooms requires Rooms license.,Licensing,,,Licensing
+app_shifts,app_teams,INTEGRATES_WITH,directed,Shifts integrates with Teams.,Teams;Frontline,,,Teams
+app_approvals,app_teams,INTEGRATES_WITH,directed,Approvals integrates with Teams.,Teams,,,Teams
+app_approvals,store_dataverse,DATA_STORED_IN,directed,Approval data stored in Dataverse.,Teams,,,Teams
+feat_teams_intelligent_recap,lic_teams_premium,REQUIRES_LICENSE,directed,Intelligent Recap requires Teams Premium.,Licensing,,,Licensing
+# ============================================================
+# TEAMS — Town Hall & Webinar Storage
+# ============================================================
+feat_teams_town_hall,store_onedrive,DATA_STORED_IN,directed,Town Hall recordings stored in organiser's OneDrive.,Teams,OneDrive/Recordings,.mp4,Teams
+feat_teams_webinar,store_onedrive,DATA_STORED_IN,directed,Webinar recordings stored in organiser's OneDrive.,Teams,OneDrive/Recordings,.mp4,Teams
+# ============================================================
+# SHAREPOINT — Advanced Features
+# ============================================================
+app_sharepoint,feat_sp_spfx,HAS_COMPONENT,directed,SharePoint includes SPFx development.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_info_barriers,HAS_COMPONENT,directed,SharePoint includes information barriers.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_restricted_access,HAS_COMPONENT,directed,SharePoint includes restricted access control.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_site_lifecycle,HAS_COMPONENT,directed,SharePoint includes site lifecycle policies.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_file_requests,HAS_COMPONENT,directed,SharePoint includes file requests.,SharePoint_Online,,,SharePoint
+feat_sp_spfx,tech_spfx,POWERED_BY,directed,SPFx feature powered by SharePoint Framework tech.,Technology,,,Technology
+feat_sp_restricted_access,lic_e5,REQUIRES_LICENSE,directed,Restricted Access Control requires E5.,Licensing,,,Licensing
+# ============================================================
+# EXCHANGE — Advanced Features
+# ============================================================
+store_exchange,feat_exo_litigation_hold,HAS_COMPONENT,directed,Exchange includes litigation hold.,Exchange_Online,,,Exchange
+store_exchange,feat_exo_in_place_hold,HAS_COMPONENT,directed,Exchange includes in-place hold.,Exchange_Online,,,Exchange
+store_exchange,feat_exo_auto_expanding_archive,HAS_COMPONENT,directed,Exchange includes auto-expanding archive.,Exchange_Online,,,Exchange
+app_outlook,feat_exo_focused_inbox,HAS_COMPONENT,directed,Outlook includes focused inbox.,Exchange_Online,,,Exchange
+store_exchange,feat_exo_shared_mailbox,HAS_COMPONENT,directed,Exchange includes shared mailboxes.,Exchange_Online,,,Exchange
+app_outlook,feat_exo_room_finder,HAS_COMPONENT,directed,Outlook includes room finder.,Exchange_Online,,,Exchange
+# ============================================================
+# ONEDRIVE — Advanced Features
+# ============================================================
+app_onedrive,feat_od_shortcut,HAS_COMPONENT,directed,OneDrive includes shortcuts.,OneDrive,,,OneDrive
+app_onedrive,feat_od_file_requests,HAS_COMPONENT,directed,OneDrive includes file requests.,OneDrive,,,OneDrive
+app_onedrive,feat_od_offline_files,HAS_COMPONENT,directed,OneDrive includes offline files.,OneDrive,,,OneDrive
+# ============================================================
+# COPILOT — Additional Integrations
+# ============================================================
+app_planner,copilot_planner,HAS_COPILOT,directed,Planner has Copilot integration.,Copilot,,,Copilot
+app_stream,copilot_stream,HAS_COPILOT,directed,Stream has Copilot integration.,Copilot,,,Copilot
+app_forms,copilot_forms,HAS_COPILOT,directed,Forms has Copilot integration.,Copilot,,,Copilot
+app_viva_engage,copilot_viva_engage,HAS_COPILOT,directed,Viva Engage has Copilot integration.,Copilot,,,Copilot
+copilot_planner,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Planner requires Copilot license.,Licensing,,,Licensing
+copilot_stream,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Stream requires Copilot license.,Licensing,,,Licensing
+copilot_forms,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Forms requires Copilot license.,Licensing,,,Licensing
+copilot_viva_engage,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Viva Engage requires Copilot license.,Licensing,,,Licensing
+copilot_planner,tech_semantic_index,GROUNDED_BY,directed,Copilot in Planner grounded by Semantic Index.,Copilot,,,Copilot
+copilot_stream,tech_semantic_index,GROUNDED_BY,directed,Copilot in Stream grounded by Semantic Index.,Copilot,,,Copilot
+# ============================================================
+# COPILOT — Architecture Depth
+# ============================================================
+app_copilot,tech_azure_openai,POWERED_BY,directed,Copilot powered by Azure OpenAI Service.,Copilot;AI,,,Copilot
+tech_azure_openai,tech_rag,POWERED_BY,directed,Azure OpenAI uses RAG pattern for grounding.,AI,,,Technology
+tech_semantic_index,tech_substrate_sdf,DEPENDS_ON,directed,Semantic Index depends on Substrate Data Fabric.,Technology,,,Technology
+tech_substrate_sdf,svc_substrate,PART_OF,directed,Substrate Data Fabric is part of Substrate.,Technology,,,Technology
+app_copilot,tech_graph,GROUNDED_BY,directed,Copilot grounded by Microsoft Graph data.,Copilot,,,Copilot
+app_microsoft_search,svc_search,DEPENDS_ON_SERVICE,directed,Microsoft Search depends on Search Service.,Search,,,Search
+tech_semantic_index,svc_search,DEPENDS_ON,directed,Semantic Index depends on Search Service for indexing.,Technology,,,Technology
+# ============================================================
+# COMPLIANCE — Additional Features & Relationships
+# ============================================================
+comp_info_barriers,suite_purview,PART_OF,directed,Information Barriers is a Purview feature.,Compliance,,,Compliance
+comp_data_lifecycle,suite_purview,PART_OF,directed,Data Lifecycle Management is a Purview feature.,Compliance,,,Compliance
+comp_pam,suite_purview,PART_OF,directed,Privileged Access Management is a Purview feature.,Compliance,,,Compliance
+comp_customer_lockbox,suite_purview,PART_OF,directed,Customer Lockbox is a Purview feature.,Compliance,,,Compliance
+comp_content_search,suite_purview,PART_OF,directed,Content Search is a Purview feature.,Compliance,,,Compliance
+comp_data_connectors,suite_purview,PART_OF,directed,Data Connectors is a Purview feature.,Compliance,,,Compliance
+comp_sit,suite_purview,PART_OF,directed,Sensitive Information Types is a Purview feature.,Compliance,,,Compliance
+comp_trainable_classifiers,suite_purview,PART_OF,directed,Trainable Classifiers is a Purview feature.,Compliance,,,Compliance
+comp_exact_data_match,suite_purview,PART_OF,directed,Exact Data Match is a Purview feature.,Compliance,,,Compliance
+comp_info_barriers,lic_e5,REQUIRES_LICENSE,directed,Information Barriers requires E5.,Licensing,,,Licensing
+comp_pam,lic_e5,REQUIRES_LICENSE,directed,Privileged Access Management requires E5.,Licensing,,,Licensing
+comp_customer_lockbox,lic_e5,REQUIRES_LICENSE,directed,Customer Lockbox requires E5.,Licensing,,,Licensing
+comp_trainable_classifiers,lic_e5,REQUIRES_LICENSE,directed,Trainable Classifiers requires E5.,Licensing,,,Licensing
+comp_exact_data_match,lic_e5,REQUIRES_LICENSE,directed,Exact Data Match requires E5.,Licensing,,,Licensing
+comp_info_barriers,app_teams,APPLIES_POLICY,directed,Information Barriers apply to Teams.,Compliance,,,Compliance
+comp_info_barriers,store_sharepoint,APPLIES_POLICY,directed,Information Barriers apply to SharePoint.,Compliance,,,Compliance
+comp_info_barriers,store_onedrive,APPLIES_POLICY,directed,Information Barriers apply to OneDrive.,Compliance,,,Compliance
+comp_sit,comp_dlp_policy,DEPENDS_ON,directed,DLP policies depend on Sensitive Information Types.,Compliance;DLP,,,Compliance
+comp_sit,comp_sensitivity_label,DEPENDS_ON,directed,Auto-labelling depends on Sensitive Information Types.,Compliance,,,Compliance
+comp_trainable_classifiers,comp_dlp_policy,DEPENDS_ON,directed,DLP can use trainable classifiers.,Compliance;DLP,,,Compliance
+comp_content_search,store_sharepoint,DISCOVERED_BY,directed,Content Search can search SharePoint.,Compliance,,,Compliance
+comp_content_search,store_exchange,DISCOVERED_BY,directed,Content Search can search Exchange.,Compliance,,,Compliance
+comp_content_search,store_onedrive,DISCOVERED_BY,directed,Content Search can search OneDrive.,Compliance,,,Compliance
+comp_content_search,app_teams,DISCOVERED_BY,directed,Content Search can search Teams.,Compliance,,,Compliance
+# ============================================================
+# COMPLIANCE — Retention depth
+# ============================================================
+comp_retention_policy,app_copilot,APPLIES_POLICY,directed,Retention policies apply to Copilot interactions.,Compliance,,,Compliance
+comp_retention_policy,app_loop,APPLIES_POLICY,directed,Retention policies apply to Loop content.,Compliance,,,Compliance
+comp_dlp_policy,app_copilot,APPLIES_POLICY,directed,DLP policies apply to Copilot responses.,Compliance;DLP,,,Compliance
+comp_sensitivity_label,app_copilot,APPLIES_POLICY,directed,Sensitivity labels respected by Copilot.,Compliance,,,Compliance
+# ============================================================
+# SECURITY — Additional Relationships
+# ============================================================
+sec_attack_simulation,sec_defender_o365,PART_OF,directed,Attack Simulation is part of Defender for O365.,Security,,,Security
+sec_threat_explorer,sec_defender_o365,PART_OF,directed,Threat Explorer is part of Defender for O365.,Security,,,Security
+app_defender_cloud_apps,app_teams,PROTECTED_BY,directed,Defender for Cloud Apps protects Teams.,Security,,,Security
+app_defender_cloud_apps,store_sharepoint,PROTECTED_BY,directed,Defender for Cloud Apps protects SharePoint.,Security,,,Security
+app_defender_cloud_apps,store_onedrive,PROTECTED_BY,directed,Defender for Cloud Apps protects OneDrive.,Security,,,Security
+app_defender_cloud_apps,store_exchange,PROTECTED_BY,directed,Defender for Cloud Apps protects Exchange.,Security,,,Security
+app_defender_endpoint,sec_intune,INTEGRATES_WITH,directed,Defender for Endpoint integrates with Intune.,Security,,,Security
+app_defender_identity,app_entra_id,INTEGRATES_WITH,directed,Defender for Identity integrates with Entra ID.,Security;Identity,,,Security
+sec_conditional_access,app_entra_id,PART_OF,directed,Conditional Access is part of Entra ID.,Security;Identity,,,Security
+sec_mfa,app_entra_id,PART_OF,directed,MFA is part of Entra ID.,Security;Identity,,,Security
+sec_pim,app_entra_id,PART_OF,directed,PIM is part of Entra ID.,Security;Identity,,,Security
+sec_entra_id_protection,app_entra_id,PART_OF,directed,Entra ID Protection is part of Entra ID.,Security;Identity,,,Security
+sec_pim,lic_entra_p2,REQUIRES_LICENSE,directed,PIM requires Entra ID P2 license.,Licensing,,,Licensing
+sec_entra_id_protection,lic_entra_p2,REQUIRES_LICENSE,directed,Entra ID Protection requires Entra ID P2.,Licensing,,,Licensing
+# ============================================================
+# IDENTITY — Entra ID Dependencies
+# ============================================================
+app_entra_id,svc_entra,DEPENDS_ON_SERVICE,directed,Entra ID app depends on Entra ID Service.,Identity,,,Identity
+app_teams,svc_entra,DEPENDS_ON_SERVICE,directed,Teams depends on Entra ID for authentication.,Identity,,,Identity
+app_sharepoint,svc_entra,DEPENDS_ON_SERVICE,directed,SharePoint depends on Entra ID for authentication.,Identity,,,Identity
+store_exchange,svc_entra,DEPENDS_ON_SERVICE,directed,Exchange depends on Entra ID for authentication.,Identity,,,Identity
+app_power_apps,svc_entra,DEPENDS_ON_SERVICE,directed,Power Apps depends on Entra ID for authentication.,Identity,,,Identity
+# ============================================================
+# MICROSOFT SEARCH — Integrations
+# ============================================================
+app_microsoft_search,store_sharepoint,INTEGRATES_WITH,directed,Microsoft Search indexes SharePoint content.,Search,,,Search
+app_microsoft_search,store_onedrive,INTEGRATES_WITH,directed,Microsoft Search indexes OneDrive content.,Search,,,Search
+app_microsoft_search,store_exchange,INTEGRATES_WITH,directed,Microsoft Search indexes Exchange content.,Search,,,Search
+app_microsoft_search,app_teams,INTEGRATES_WITH,directed,Microsoft Search indexes Teams messages.,Search,,,Search
+app_microsoft_search,tech_graph_connectors,INTEGRATES_WITH,directed,Microsoft Search uses Graph Connectors for external data.,Search,,,Search
+app_microsoft_search,suite_m365,PART_OF_SUITE,directed,Microsoft Search is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+# ============================================================
+# GRAPH API — Technology Relationships
+# ============================================================
+svc_graph_api,tech_graph,PART_OF,directed,Graph API is the interface to Microsoft Graph.,Technology,,,Technology
+tech_graph,store_sharepoint,INTEGRATES_WITH,directed,Microsoft Graph accesses SharePoint data.,Technology,,,Technology
+tech_graph,store_exchange,INTEGRATES_WITH,directed,Microsoft Graph accesses Exchange data.,Technology,,,Technology
+tech_graph,store_onedrive,INTEGRATES_WITH,directed,Microsoft Graph accesses OneDrive data.,Technology,,,Technology
+tech_graph,app_teams,INTEGRATES_WITH,directed,Microsoft Graph accesses Teams data.,Technology,,,Technology
+tech_graph_connectors,tech_graph,PART_OF,directed,Graph Connectors extend Microsoft Graph.,Technology,,,Technology
+# ============================================================
+# LICENSING — Base App Requirements
+# ============================================================
+app_teams,lic_e3,REQUIRES_LICENSE,directed,Teams included in E3 license.,Licensing,,,Licensing
+app_sharepoint,lic_e3,REQUIRES_LICENSE,directed,SharePoint included in E3 license.,Licensing,,,Licensing
+app_onedrive,lic_e3,REQUIRES_LICENSE,directed,OneDrive included in E3 license.,Licensing,,,Licensing
+app_outlook,lic_e3,REQUIRES_LICENSE,directed,Outlook included in E3 license.,Licensing,,,Licensing
+app_copilot,lic_copilot,REQUIRES_LICENSE,directed,M365 Copilot requires Copilot add-on license.,Licensing,,,Licensing
+app_copilot_studio,lic_copilot_studio,REQUIRES_LICENSE,directed,Copilot Studio requires its own license.,Licensing,,,Licensing
+app_teams_premium,lic_teams_premium,REQUIRES_LICENSE,directed,Teams Premium requires add-on license.,Licensing,,,Licensing
+feat_sp_syntex,lic_syntex,REQUIRES_LICENSE,directed,SharePoint Premium requires Syntex license.,Licensing,,,Licensing
+# ============================================================
+# ADMIN ROLES — Additional Management
+# ============================================================
+app_entra_id,role_global_admin,MANAGED_BY,directed,Entra ID managed by Global Admin.,Governance,,,Governance
+app_microsoft_search,role_search_admin,MANAGED_BY,directed,Microsoft Search managed by Search Admin.,Governance,,,Governance
+id_m365_group,role_groups_admin,MANAGED_BY,directed,M365 Groups managed by Groups Admin.,Governance,,,Governance
+# ============================================================
+# INTEGRATIONS — Cross-App
+# ============================================================
+app_lists,app_sharepoint,INTEGRATES_WITH,directed,Lists is built on SharePoint.,Microsoft 365,,,Microsoft 365
+app_planner,app_teams,INTEGRATES_WITH,directed,Planner integrates with Teams as a tab.,Microsoft 365;Teams,,,Microsoft 365
+app_forms,app_teams,INTEGRATES_WITH,directed,Forms integrates with Teams.,Microsoft 365;Teams,,,Microsoft 365
+app_stream,app_sharepoint,INTEGRATES_WITH,directed,Stream is built on SharePoint storage.,Microsoft 365,,,Microsoft 365
+app_viva_connections,app_sharepoint,INTEGRATES_WITH,directed,Viva Connections built on SharePoint.,Viva;SharePoint_Online,,,Viva
+app_viva_connections,app_teams,INTEGRATES_WITH,directed,Viva Connections surfaces in Teams.,Viva;Teams,,,Viva
+app_viva_learning,app_teams,INTEGRATES_WITH,directed,Viva Learning surfaces in Teams.,Viva;Teams,,,Viva
+app_viva_engage,app_teams,INTEGRATES_WITH,directed,Viva Engage surfaces in Teams.,Viva;Teams,,,Viva
+app_tasks,app_teams,INTEGRATES_WITH,directed,Tasks integrates with Teams.,Microsoft 365;Teams,,,Microsoft 365
+app_tasks,app_planner,INTEGRATES_WITH,directed,Tasks pulls from Planner.,Microsoft 365,,,Microsoft 365
+app_tasks,app_todo,INTEGRATES_WITH,directed,Tasks pulls from To Do.,Microsoft 365,,,Microsoft 365
+app_bookings,app_teams,INTEGRATES_WITH,directed,Bookings integrates with Teams for virtual appointments.,Microsoft 365;Teams,,,Microsoft 365
+# ============================================================
+# SHIFTS — Storage
+# ============================================================
+app_shifts,store_azure_cosmos,DATA_STORED_IN,directed,Shifts schedule data stored in Azure infrastructure.,Teams,,,Teams
