@@ -1,0 +1,417 @@
+From,To,Label,Direction,Description,Tags,File_Path,File_Extension,Domain
+# ============================================================
+# SUITE MEMBERSHIP
+# ============================================================
+app_teams,suite_m365,PART_OF_SUITE,directed,Teams is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_outlook,suite_m365,PART_OF_SUITE,directed,Outlook is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_word,suite_m365,PART_OF_SUITE,directed,Word is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_excel,suite_m365,PART_OF_SUITE,directed,Excel is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_powerpoint,suite_m365,PART_OF_SUITE,directed,PowerPoint is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_onenote,suite_m365,PART_OF_SUITE,directed,OneNote is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_loop,suite_m365,PART_OF_SUITE,directed,Loop is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_onedrive,suite_m365,PART_OF_SUITE,directed,OneDrive is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_sharepoint,suite_m365,PART_OF_SUITE,directed,SharePoint is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_planner,suite_m365,PART_OF_SUITE,directed,Planner is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_forms,suite_m365,PART_OF_SUITE,directed,Forms is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_lists,suite_m365,PART_OF_SUITE,directed,Lists is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_stream,suite_m365,PART_OF_SUITE,directed,Stream is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_whiteboard,suite_m365,PART_OF_SUITE,directed,Whiteboard is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_bookings,suite_m365,PART_OF_SUITE,directed,Bookings is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_clipchamp,suite_m365,PART_OF_SUITE,directed,Clipchamp is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_designer,suite_m365,PART_OF_SUITE,directed,Designer is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_sway,suite_m365,PART_OF_SUITE,directed,Sway is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_access,suite_m365,PART_OF_SUITE,directed,Access is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_project,suite_m365,PART_OF_SUITE,directed,Project for the web is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_todo,suite_m365,PART_OF_SUITE,directed,To Do is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_places,suite_m365,PART_OF_SUITE,directed,Places is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_people,suite_m365,PART_OF_SUITE,directed,People is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_delve,suite_m365,PART_OF_SUITE,directed,Delve is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_m365_groups,suite_m365,PART_OF_SUITE,directed,Microsoft 365 Groups is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_teams_premium,suite_m365,PART_OF_SUITE,directed,Teams Premium is part of Microsoft 365.,Microsoft 365,,,Microsoft 365
+app_copilot,suite_copilot,PART_OF_SUITE,directed,M365 Copilot is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_chat,suite_copilot,PART_OF_SUITE,directed,Copilot Chat is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_app,suite_copilot,PART_OF_SUITE,directed,Copilot app is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_pages,suite_copilot,PART_OF_SUITE,directed,Copilot Pages is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_notebooks,suite_copilot,PART_OF_SUITE,directed,Copilot Notebooks is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_search,suite_copilot,PART_OF_SUITE,directed,Copilot Search is part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_studio,suite_copilot,PART_OF_SUITE,directed,Copilot Studio is part of the Copilot suite.,Copilot,,,Copilot
+app_agents_m365,suite_copilot,PART_OF_SUITE,directed,Agents in M365 are part of the Copilot suite.,Copilot,,,Copilot
+app_copilot_lite_agents,suite_copilot,PART_OF_SUITE,directed,Lite Agents are part of the Copilot suite.,Copilot,,,Copilot
+app_knowledge_agent,suite_copilot,PART_OF_SUITE,directed,Knowledge Agent is part of the Copilot suite.,Copilot,,,Copilot
+app_viva_engage,suite_viva,PART_OF_SUITE,directed,Viva Engage is part of Microsoft Viva.,Viva,,,Viva
+app_viva_learning,suite_viva,PART_OF_SUITE,directed,Viva Learning is part of Microsoft Viva.,Viva,,,Viva
+app_viva_insights,suite_viva,PART_OF_SUITE,directed,Viva Insights is part of Microsoft Viva.,Viva,,,Viva
+app_viva_goals,suite_viva,PART_OF_SUITE,directed,Viva Goals is part of Microsoft Viva.,Viva,,,Viva
+app_viva_connections,suite_viva,PART_OF_SUITE,directed,Viva Connections is part of Microsoft Viva.,Viva,,,Viva
+app_viva_amplify,suite_viva,PART_OF_SUITE,directed,Viva Amplify is part of Microsoft Viva.,Viva,,,Viva
+app_viva_pulse,suite_viva,PART_OF_SUITE,directed,Viva Pulse is part of Microsoft Viva.,Viva,,,Viva
+app_viva_glint,suite_viva,PART_OF_SUITE,directed,Viva Glint is part of Microsoft Viva.,Viva,,,Viva
+app_power_apps,suite_power_platform,PART_OF_SUITE,directed,Power Apps is part of Power Platform.,Power_Platform,,,Power Platform
+app_power_automate,suite_power_platform,PART_OF_SUITE,directed,Power Automate is part of Power Platform.,Power_Platform,,,Power Platform
+app_power_bi,suite_power_platform,PART_OF_SUITE,directed,Power BI is part of Power Platform.,Power_Platform,,,Power Platform
+app_power_pages,suite_power_platform,PART_OF_SUITE,directed,Power Pages is part of Power Platform.,Power_Platform,,,Power Platform
+app_copilot_studio,suite_power_platform,PART_OF_SUITE,directed,Copilot Studio is also part of Power Platform.,Power_Platform,,,Power Platform
+# ============================================================
+# DATA STORAGE — Apps to Storage Services
+# ============================================================
+app_word,store_onedrive,DATA_STORED_IN,directed,Word files stored in OneDrive.,Microsoft 365,OneDrive/Documents,.docx,Microsoft 365
+app_word,store_sharepoint,DATA_STORED_IN,directed,Word files stored in SharePoint.,Microsoft 365,Document Library,.docx,Microsoft 365
+app_excel,store_onedrive,DATA_STORED_IN,directed,Excel files stored in OneDrive.,Microsoft 365,OneDrive/Documents,.xlsx,Microsoft 365
+app_excel,store_sharepoint,DATA_STORED_IN,directed,Excel files stored in SharePoint.,Microsoft 365,Document Library,.xlsx,Microsoft 365
+app_powerpoint,store_onedrive,DATA_STORED_IN,directed,PowerPoint files stored in OneDrive.,Microsoft 365,OneDrive/Documents,.pptx,Microsoft 365
+app_powerpoint,store_sharepoint,DATA_STORED_IN,directed,PowerPoint files stored in SharePoint.,Microsoft 365,Document Library,.pptx,Microsoft 365
+app_onenote,store_onedrive,DATA_STORED_IN,directed,Personal OneNote notebooks stored in OneDrive.,Microsoft 365,OneDrive/Notebooks,.one,Microsoft 365
+app_onenote,store_sharepoint,DATA_STORED_IN,directed,Group OneNote notebooks stored in SharePoint.,Microsoft 365,Site Assets,.one,Microsoft 365
+app_loop,store_spe_shared,DATA_STORED_IN,directed,Loop Workspaces stored in SharePoint Embedded (shared).,Loop,/sites/LoopWorkspace/Documents,".loop;.fluid",Loop
+app_onedrive,store_onedrive,DATA_STORED_IN,directed,OneDrive app uses OneDrive for Business storage.,Microsoft 365,,,Microsoft 365
+app_sharepoint,store_sharepoint,DATA_STORED_IN,directed,SharePoint app uses SharePoint Online storage.,Microsoft 365,,,Microsoft 365
+app_outlook,store_exchange,DATA_STORED_IN,directed,Outlook data stored in Exchange Online.,Microsoft 365,,,Microsoft 365
+app_teams,store_exchange,DATA_STORED_IN,directed,Teams stores compliance copies in Exchange Online.,Teams,,,Teams
+app_teams,store_sharepoint,DATA_STORED_IN,directed,Teams channel files stored in SharePoint Online.,Teams,,,Teams
+app_teams,store_onedrive,DATA_STORED_IN,directed,Teams chat files stored in OneDrive for Business.,Teams,OneDrive/Microsoft Teams Chat Files,,Teams
+app_teams,store_teams_service,DATA_STORED_IN,directed,Teams active messages stored in Teams Service backend.,Teams,,,Teams
+app_forms,store_azure_cosmos,DATA_STORED_IN,directed,Forms responses stored in Azure Cosmos DB.,Microsoft 365,,,Microsoft 365
+app_forms,store_exchange,HAS_COMPLIANCE_COPY,directed,Forms compliance copy stored in user mailbox.,Microsoft 365,,,Microsoft 365
+app_bookings,store_exchange,DATA_STORED_IN,directed,Bookings data stored in Exchange Online.,Microsoft 365,,,Microsoft 365
+app_clipchamp,store_onedrive,DATA_STORED_IN,directed,Clipchamp videos stored in OneDrive.,Microsoft 365,OneDrive/Videos/Clipchamp,.mp4,Microsoft 365
+app_designer,store_spe_user,DATA_STORED_IN,directed,Designer files stored in user-owned SharePoint Embedded.,Microsoft 365,,,Microsoft 365
+app_whiteboard,store_onedrive,DATA_STORED_IN,directed,Whiteboard files stored in OneDrive.,Microsoft 365,OneDrive/Whiteboards,.whiteboard,Microsoft 365
+app_stream,store_sharepoint,DATA_STORED_IN,directed,Stream videos stored in SharePoint.,Microsoft 365,Document Library,.mp4,Microsoft 365
+app_stream,store_onedrive,DATA_STORED_IN,directed,Personal Stream videos stored in OneDrive.,Microsoft 365,OneDrive/Recordings,.mp4,Microsoft 365
+app_planner,store_azure_cosmos,DATA_STORED_IN,directed,Planner task data stored in Azure infrastructure.,Microsoft 365,,,Microsoft 365
+app_planner,store_exchange,HAS_COMPLIANCE_COPY,directed,Planner compliance data via Group mailbox.,Microsoft 365,,,Microsoft 365
+app_todo,store_exchange,DATA_STORED_IN,directed,To Do tasks stored in Exchange Online (Tasks folder).,Microsoft 365,,,Microsoft 365
+app_viva_engage,store_azure_cosmos,DATA_STORED_IN,directed,Viva Engage messages stored in Azure infrastructure.,Viva,,,Viva
+app_viva_engage,store_exchange,HAS_COMPLIANCE_COPY,directed,Viva Engage compliance copies in Exchange.,Viva,,,Viva
+app_copilot_pages,store_spe_shared,DATA_STORED_IN,directed,Copilot Pages stored in SharePoint Embedded.,Copilot,,,Copilot
+app_copilot_notebooks,store_spe_user,DATA_STORED_IN,directed,Copilot Notebooks stored in user SharePoint Embedded.,Copilot,,,Copilot
+app_power_apps,store_dataverse,DATA_STORED_IN,directed,Power Apps data stored in Dataverse.,Power_Platform,,,Power Platform
+app_power_automate,store_dataverse,DATA_STORED_IN,directed,Power Automate flow definitions in Dataverse.,Power_Platform,,,Power Platform
+app_power_bi,store_azure_sql,DATA_STORED_IN,directed,Power BI datasets stored in Azure SQL.,Power_Platform,,,Power Platform
+subset_onenote_group,store_sharepoint,DATA_STORED_IN,directed,Group OneNote stored in team's SharePoint site.,Microsoft 365,Site Assets/Notebook,.one,Microsoft 365
+subset_onenote_personal,store_onedrive,DATA_STORED_IN,directed,Personal OneNote stored in user's OneDrive.,Microsoft 365,OneDrive/Notebooks,.one,Microsoft 365
+subset_list_personal,store_onedrive,DATA_STORED_IN,directed,Personal lists stored in OneDrive.,Microsoft 365,,,Microsoft 365
+subset_list_site,store_sharepoint,DATA_STORED_IN,directed,Site lists stored in SharePoint.,Microsoft 365,,,Microsoft 365
+# ============================================================
+# BACKEND STORAGE
+# ============================================================
+store_sharepoint,store_azure_blob,BACKEND_STORAGE,directed,SharePoint stores files in Azure Blob Storage.,Infrastructure,,,Infrastructure
+store_onedrive,store_azure_blob,BACKEND_STORAGE,directed,OneDrive stores files in Azure Blob Storage.,Infrastructure,,,Infrastructure
+store_exchange,store_azure_blob,BACKEND_STORAGE,directed,Exchange uses Azure infrastructure.,Infrastructure,,,Infrastructure
+store_dataverse,store_azure_sql,BACKEND_STORAGE,directed,Dataverse uses Azure SQL as primary backend.,Infrastructure,,,Infrastructure
+store_dataverse,store_azure_cosmos,BACKEND_STORAGE,directed,Dataverse uses Cosmos DB for certain data.,Infrastructure,,,Infrastructure
+store_teams_service,store_azure_cosmos,BACKEND_STORAGE,directed,Teams Service uses Azure Cosmos DB for messages.,Infrastructure,,,Infrastructure
+store_onedrive,store_sharepoint,SHARES_BACKEND,directed,OneDrive is built on SharePoint Online.,Infrastructure,,,Infrastructure
+# ============================================================
+# TEAMS — Internal Structure
+# ============================================================
+app_teams,feat_teams_chat,HAS_COMPONENT,directed,Teams includes chat functionality.,Teams,,,Teams
+app_teams,feat_teams_channels,HAS_COMPONENT,directed,Teams includes channels.,Teams,,,Teams
+app_teams,feat_meeting_recordings,HAS_COMPONENT,directed,Teams includes meeting recordings.,Teams,,,Teams
+app_teams,feat_meeting_transcriptions,HAS_COMPONENT,directed,Teams includes meeting transcriptions.,Teams,,,Teams
+app_teams,feat_teams_voicemail,HAS_COMPONENT,directed,Teams includes voicemail.,Teams,,,Teams
+app_teams,feat_teams_call_history,HAS_COMPONENT,directed,Teams includes call history.,Teams,,,Teams
+app_teams,feat_teams_notes,HAS_COMPONENT,directed,Teams includes collaborative meeting notes.,Teams,,,Teams
+feat_teams_channels,feat_channel_general,CONTAINS,directed,Channels contain General channel.,Teams,,,Teams
+feat_teams_channels,feat_channel_private,CONTAINS,directed,Channels contain Private channels.,Teams,,,Teams
+feat_teams_channels,feat_channel_shared,CONTAINS,directed,Channels contain Shared channels.,Teams,,,Teams
+feat_channel_general,feat_channel_files_general,HAS_FILES,directed,General channel has files.,Teams,,,Teams
+feat_channel_private,feat_channel_files_private,HAS_FILES,directed,Private channel has files.,Teams,,,Teams
+feat_channel_shared,feat_channel_files_shared,HAS_FILES,directed,Shared channel has files.,Teams,,,Teams
+feat_teams_chat,feat_chat_messages,CONTAINS,directed,Chat contains messages.,Teams,,,Teams
+feat_teams_chat,feat_chat_files,CONTAINS,directed,Chat contains shared files.,Teams,,,Teams
+feat_meeting_recordings,feat_meeting_recordings_channel,CONTAINS,directed,Recordings include channel recordings.,Teams,,,Teams
+feat_meeting_recordings,feat_meeting_recordings_private,CONTAINS,directed,Recordings include private recordings.,Teams,,,Teams
+feat_meeting_transcriptions,feat_meeting_transcriptions_channel,CONTAINS,directed,Transcriptions include channel transcriptions.,Teams,,,Teams
+feat_meeting_transcriptions,feat_meeting_transcriptions_private,CONTAINS,directed,Transcriptions include private transcriptions.,Teams,,,Teams
+# ============================================================
+# TEAMS — Storage Locations
+# ============================================================
+feat_channel_files_general,store_sharepoint,DATA_STORED_IN,directed,General channel files stored in SharePoint.,Teams,/sites/TeamSite/Shared Documents/General,,Teams
+feat_channel_files_private,store_sharepoint,DATA_STORED_IN,directed,Private channel files stored in separate SharePoint site.,Teams,/sites/TeamSite-ChannelName/Shared Documents,,Teams
+feat_channel_files_shared,store_sharepoint,DATA_STORED_IN,directed,Shared channel files stored in separate SharePoint site.,Teams,/sites/TeamSite-ChannelName/Shared Documents,,Teams
+feat_chat_files,store_onedrive,DATA_STORED_IN,directed,Chat files stored in sender's OneDrive.,Teams,OneDrive/Microsoft Teams Chat Files,,Teams
+feat_chat_messages,store_teams_service,DATA_STORED_IN,directed,Chat messages stored in Teams Service backend.,Teams,,,Teams
+feat_channel_conversations,store_teams_service,DATA_STORED_IN,directed,Channel conversations stored in Teams Service.,Teams,,,Teams
+feat_meeting_recordings_channel,store_sharepoint,DATA_STORED_IN,directed,Channel meeting recordings stored in SharePoint.,Teams,/sites/TeamSite/Shared Documents/Recordings,.mp4,Teams
+feat_meeting_recordings_private,store_onedrive,DATA_STORED_IN,directed,Private meeting recordings stored in OneDrive.,Teams,OneDrive/Recordings,.mp4,Teams
+feat_meeting_transcriptions_channel,store_sharepoint,DATA_STORED_IN,directed,Channel meeting transcriptions stored in SharePoint.,Teams,/sites/TeamSite/Shared Documents/Recordings,.vtt,Teams
+feat_meeting_transcriptions_private,store_onedrive,DATA_STORED_IN,directed,Private meeting transcriptions stored in OneDrive.,Teams,OneDrive/Recordings,.vtt,Teams
+feat_teams_voicemail,store_exchange,DATA_STORED_IN,directed,Voicemail stored in user mailbox.,Teams,,,Teams
+feat_teams_call_history,store_azure_cosmos,DATA_STORED_IN,directed,Call history stored in Azure Cosmos DB.,Teams,,,Teams
+# ============================================================
+# TEAMS — Identity Bindings
+# ============================================================
+app_teams,id_m365_group,DEPENDS_ON_IDENTITY,directed,Teams depends on Microsoft 365 Group.,Teams,,,Teams
+feat_channel_general,id_m365_group,BOUND_TO_IDENTITY,directed,General channel bound to M365 Group.,Teams,,,Teams
+feat_channel_private,id_m365_group,BOUND_TO_IDENTITY,directed,Private channel bound to M365 Group.,Teams,,,Teams
+feat_channel_shared,id_m365_group,BOUND_TO_IDENTITY,directed,Shared channel bound to M365 Group.,Teams,,,Teams
+feat_channel_files_general,id_m365_group,BOUND_TO_IDENTITY,directed,General channel files bound to M365 Group.,Teams,,,Teams
+feat_channel_files_private,id_m365_group,BOUND_TO_IDENTITY,directed,Private channel files bound to M365 Group.,Teams,,,Teams
+feat_channel_files_shared,id_m365_group,BOUND_TO_IDENTITY,directed,Shared channel files bound to M365 Group.,Teams,,,Teams
+feat_chat_messages,id_user_account,BOUND_TO_IDENTITY,directed,Chat messages bound to user account.,Teams,,,Teams
+feat_chat_files,id_user_account,BOUND_TO_IDENTITY,directed,Chat files bound to user account.,Teams,,,Teams
+feat_meeting_recordings_private,id_user_account,BOUND_TO_IDENTITY,directed,Private recordings bound to user account.,Teams,,,Teams
+feat_meeting_recordings_channel,id_m365_group,BOUND_TO_IDENTITY,directed,Channel recordings bound to M365 Group.,Teams,,,Teams
+feat_meeting_transcriptions_private,id_user_account,BOUND_TO_IDENTITY,directed,Private transcriptions bound to user account.,Teams,,,Teams
+feat_meeting_transcriptions_channel,id_m365_group,BOUND_TO_IDENTITY,directed,Channel transcriptions bound to M365 Group.,Teams,,,Teams
+feat_channel_conversations,id_m365_group,BOUND_TO_IDENTITY,directed,Channel conversations bound to M365 Group.,Teams,,,Teams
+# ============================================================
+# TEAMS — Compliance Copies
+# ============================================================
+feat_chat_messages,mbox_user,HAS_COMPLIANCE_COPY,directed,Compliance copy of chat messages in user mailbox.,Teams;Compliance,,,Teams
+feat_channel_conversations,mbox_group,HAS_COMPLIANCE_COPY,directed,Compliance copy of channel conversations in group mailbox.,Teams;Compliance,,,Teams
+feat_teams_voicemail,mbox_user,HAS_COMPLIANCE_COPY,directed,Compliance copy of voicemail in user mailbox.,Teams;Compliance,,,Teams
+feat_teams_call_history,mbox_user,HAS_COMPLIANCE_COPY,directed,Compliance copy of call records in user mailbox.,Teams;Compliance,,,Teams
+# ============================================================
+# LOOP — Structure and Storage
+# ============================================================
+app_loop,feat_loop_workspace,HAS_COMPONENT,directed,Loop app includes workspaces.,Loop,,,Loop
+app_loop,feat_loop_pages,HAS_COMPONENT,directed,Loop app includes pages.,Loop,,,Loop
+app_loop,feat_loop_components,HAS_COMPONENT,directed,Loop app includes components.,Loop,,,Loop
+feat_loop_workspace,feat_loop_pages,CONTAINS,directed,Workspace contains pages.,Loop,,,Loop
+feat_loop_pages,feat_loop_components,CONTAINS,directed,Pages contain components.,Loop,,,Loop
+feat_loop_workspace,store_spe_shared,DATA_STORED_IN,directed,Loop Workspaces stored in SharePoint Embedded.,Loop,/sites/LoopWorkspace/Documents,".loop;.fluid",Loop
+feat_loop_workspace,id_m365_group,DEPENDS_ON,directed,Loop Workspace depends on M365 Group for identity.,Loop,,,Loop
+feat_loop_workspace,tech_spe,PROVISIONED_BY,directed,Loop Workspace provisioned by SharePoint Embedded.,Loop,,,Loop
+feat_loop_components,tech_fluid,POWERED_BY,directed,Loop Components powered by Fluid Framework.,Loop,,,Loop
+feat_loop_components,store_onedrive,STORED_IN,directed,Standalone Loop components stored in OneDrive.,Loop,OneDrive/Root,".loop;.fluid",Loop
+feat_loop_in_teams_chat,store_onedrive,STORED_IN,directed,Loop in Teams chat stored in OneDrive.,Loop,OneDrive/Microsoft Teams Chat Files,".loop;.fluid",Loop
+feat_loop_in_teams_chat,app_teams,INTEGRATES_WITH,directed,Loop component integrates with Teams chat.,Loop;Teams,,,Loop
+feat_loop_in_teams_meeting,store_onedrive,STORED_IN,directed,Loop in Teams meeting stored in OneDrive.,Loop,OneDrive/Meetings,".loop;.fluid",Loop
+feat_loop_in_teams_meeting,app_teams,INTEGRATES_WITH,directed,Loop component integrates with Teams meetings.,Loop;Teams,,,Loop
+feat_loop_in_outlook,store_onedrive,STORED_IN,directed,Loop in Outlook stored in OneDrive.,Loop,OneDrive/Attachments,".loop;.fluid",Loop
+feat_loop_in_outlook,app_outlook,INTEGRATES_WITH,directed,Loop component integrates with Outlook.,Loop,,,Loop
+feat_loop_in_onenote,store_onedrive,STORED_IN,directed,Loop in OneNote stored in OneDrive.,Loop,OneDrive/OneNote Loop Files,".loop;.fluid",Loop
+feat_loop_in_onenote,app_onenote,INTEGRATES_WITH,directed,Loop component integrates with OneNote.,Loop,,,Loop
+feat_loop_in_whiteboard,store_onedrive,STORED_IN,directed,Loop in Whiteboard stored in OneDrive.,Loop,OneDrive/Whiteboard/Components,".loop;.fluid",Loop
+feat_loop_in_whiteboard,app_whiteboard,INTEGRATES_WITH,directed,Loop component integrates with Whiteboard.,Loop,,,Loop
+# ============================================================
+# SHAREPOINT — Structure
+# ============================================================
+app_sharepoint,feat_sp_document_library,HAS_COMPONENT,directed,SharePoint includes document libraries.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_lists,HAS_COMPONENT,directed,SharePoint includes lists.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_pages,HAS_COMPONENT,directed,SharePoint includes pages.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_content_types,HAS_COMPONENT,directed,SharePoint includes content types.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_term_store,HAS_COMPONENT,directed,SharePoint includes term store.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_recycle_bin,HAS_COMPONENT,directed,SharePoint includes recycle bin.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_versioning,HAS_COMPONENT,directed,SharePoint includes versioning.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_hub_site,HAS_COMPONENT,directed,SharePoint includes hub sites.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_search,HAS_COMPONENT,directed,SharePoint includes search.,SharePoint_Online,,,SharePoint
+app_sharepoint,feat_sp_syntex,HAS_COMPONENT,directed,SharePoint includes Syntex/Premium.,SharePoint_Online,,,SharePoint
+feat_sp_document_library,store_sharepoint,DATA_STORED_IN,directed,Document libraries stored in SharePoint.,SharePoint_Online,,,SharePoint
+feat_sp_lists,store_sharepoint,DATA_STORED_IN,directed,SharePoint lists stored in SharePoint.,SharePoint_Online,,,SharePoint
+feat_sp_pages,store_sharepoint,DATA_STORED_IN,directed,SharePoint pages stored in SharePoint.,SharePoint_Online,,,.aspx,SharePoint
+# ============================================================
+# SHAREPOINT — Site Types
+# ============================================================
+site_team,store_sharepoint,DATA_STORED_IN,directed,Team sites are SharePoint sites.,SharePoint_Online,,,SharePoint
+site_communication,store_sharepoint,DATA_STORED_IN,directed,Communication sites are SharePoint sites.,SharePoint_Online,,,SharePoint
+site_hub,store_sharepoint,DATA_STORED_IN,directed,Hub sites are SharePoint sites.,SharePoint_Online,,,SharePoint
+site_channel_standard,store_sharepoint,DATA_STORED_IN,directed,Standard channel uses team's SharePoint site.,SharePoint_Online,,,SharePoint
+site_channel_private,store_sharepoint,DATA_STORED_IN,directed,Private channel gets own SharePoint site.,SharePoint_Online,,,SharePoint
+site_channel_shared,store_sharepoint,DATA_STORED_IN,directed,Shared channel gets own SharePoint site.,SharePoint_Online,,,SharePoint
+site_onedrive,store_sharepoint,DATA_STORED_IN,directed,OneDrive site is a SharePoint site collection.,SharePoint_Online,,,SharePoint
+site_team,id_m365_group,BOUND_TO_IDENTITY,directed,Team sites bound to M365 Group.,SharePoint_Online;Identity,,,SharePoint
+site_communication,id_sp_permission_group,BOUND_TO_IDENTITY,directed,Communication sites use SharePoint permission groups.,SharePoint_Online;Identity,,,SharePoint
+site_onedrive,id_user_account,BOUND_TO_IDENTITY,directed,OneDrive site bound to user account.,SharePoint_Online;Identity,,,SharePoint
+site_hub,site_team,ASSOCIATED_WITH,directed,Hub site can associate team sites.,SharePoint_Online,,,SharePoint
+site_hub,site_communication,ASSOCIATED_WITH,directed,Hub site can associate communication sites.,SharePoint_Online,,,SharePoint
+# ============================================================
+# EXCHANGE — Structure
+# ============================================================
+app_outlook,feat_exo_email,GENERATES,directed,Outlook generates email messages.,Exchange_Online,,,Exchange
+app_outlook,feat_exo_calendar,GENERATES,directed,Outlook generates calendar items.,Exchange_Online,,,Exchange
+app_outlook,feat_exo_contacts,GENERATES,directed,Outlook generates contacts.,Exchange_Online,,,Exchange
+app_outlook,feat_exo_tasks,GENERATES,directed,Outlook generates tasks.,Exchange_Online,,,Exchange
+feat_exo_email,store_exchange,DATA_STORED_IN,directed,Email stored in Exchange Online.,Exchange_Online,,,Exchange
+feat_exo_calendar,store_exchange,DATA_STORED_IN,directed,Calendar items stored in Exchange.,Exchange_Online,,,Exchange
+feat_exo_contacts,store_exchange,DATA_STORED_IN,directed,Contacts stored in Exchange.,Exchange_Online,,,Exchange
+feat_exo_tasks,store_exchange,DATA_STORED_IN,directed,Tasks stored in Exchange.,Exchange_Online,,,Exchange
+mbox_user,store_exchange,DATA_STORED_IN,directed,User mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_shared,store_exchange,DATA_STORED_IN,directed,Shared mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_group,store_exchange,DATA_STORED_IN,directed,Group mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_inactive,store_exchange,DATA_STORED_IN,directed,Inactive mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_public_folder,store_exchange,DATA_STORED_IN,directed,Public folder mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_archive,store_exchange_archive,DATA_STORED_IN,directed,Archive mailboxes in Exchange Online Archive.,Exchange_Online,,,Exchange
+mbox_resource,store_exchange,DATA_STORED_IN,directed,Resource mailboxes hosted in Exchange.,Exchange_Online,,,Exchange
+mbox_group,id_m365_group,BOUND_TO_IDENTITY,directed,Group mailbox bound to M365 Group.,Exchange_Online;Identity,,,Exchange
+mbox_user,id_user_account,BOUND_TO_IDENTITY,directed,User mailbox bound to user account.,Exchange_Online;Identity,,,Exchange
+# ============================================================
+# ONEDRIVE — Features
+# ============================================================
+app_onedrive,feat_od_sync,HAS_COMPONENT,directed,OneDrive includes sync client.,OneDrive,,,OneDrive
+app_onedrive,feat_od_known_folder_move,HAS_COMPONENT,directed,OneDrive includes Known Folder Move.,OneDrive,,,OneDrive
+app_onedrive,feat_od_personal_vault,HAS_COMPONENT,directed,OneDrive includes Personal Vault.,OneDrive,,,OneDrive
+app_onedrive,feat_od_sharing,HAS_COMPONENT,directed,OneDrive includes sharing capabilities.,OneDrive,,,OneDrive
+# ============================================================
+# COPILOT — Architecture
+# ============================================================
+app_copilot,tech_semantic_index,GROUNDED_BY,directed,Copilot grounded by Semantic Index.,Copilot,,,Copilot
+app_copilot,tech_graph,POWERED_BY,directed,Copilot powered by Microsoft Graph.,Copilot,,,Copilot
+app_copilot,tech_copilot_plugins,INTEGRATES_WITH,directed,Copilot extends via plugins.,Copilot,,,Copilot
+app_copilot_studio,tech_copilot_plugins,POWERED_BY,directed,Copilot Studio builds plugins/agents.,Copilot,,,Copilot
+app_word,copilot_word,HAS_COPILOT,directed,Word has Copilot integration.,Copilot,,,Copilot
+app_excel,copilot_excel,HAS_COPILOT,directed,Excel has Copilot integration.,Copilot,,,Copilot
+app_powerpoint,copilot_powerpoint,HAS_COPILOT,directed,PowerPoint has Copilot integration.,Copilot,,,Copilot
+app_outlook,copilot_outlook,HAS_COPILOT,directed,Outlook has Copilot integration.,Copilot,,,Copilot
+app_teams,copilot_teams,HAS_COPILOT,directed,Teams has Copilot integration.,Copilot,,,Copilot
+app_onenote,copilot_onenote,HAS_COPILOT,directed,OneNote has Copilot integration.,Copilot,,,Copilot
+app_loop,copilot_loop,HAS_COPILOT,directed,Loop has Copilot integration.,Copilot,,,Copilot
+app_sharepoint,copilot_sharepoint,HAS_COPILOT,directed,SharePoint has Copilot integration.,Copilot,,,Copilot
+app_whiteboard,copilot_whiteboard,HAS_COPILOT,directed,Whiteboard has Copilot integration.,Copilot,,,Copilot
+app_power_apps,copilot_power_apps,HAS_COPILOT,directed,Power Apps has Copilot integration.,Copilot,,,Copilot
+app_power_automate,copilot_power_automate,HAS_COPILOT,directed,Power Automate has Copilot integration.,Copilot,,,Copilot
+app_power_bi,copilot_power_bi,HAS_COPILOT,directed,Power BI has Copilot integration.,Copilot,,,Copilot
+copilot_word,tech_semantic_index,GROUNDED_BY,directed,Copilot in Word grounded by Semantic Index.,Copilot,,,Copilot
+copilot_excel,tech_semantic_index,GROUNDED_BY,directed,Copilot in Excel grounded by Semantic Index.,Copilot,,,Copilot
+copilot_powerpoint,tech_semantic_index,GROUNDED_BY,directed,Copilot in PowerPoint grounded by Semantic Index.,Copilot,,,Copilot
+copilot_outlook,tech_semantic_index,GROUNDED_BY,directed,Copilot in Outlook grounded by Semantic Index.,Copilot,,,Copilot
+copilot_teams,tech_semantic_index,GROUNDED_BY,directed,Copilot in Teams grounded by Semantic Index.,Copilot,,,Copilot
+# ============================================================
+# COPILOT — License Requirements
+# ============================================================
+copilot_word,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Word requires Copilot license.,Licensing,,,Licensing
+copilot_excel,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Excel requires Copilot license.,Licensing,,,Licensing
+copilot_powerpoint,lic_copilot,REQUIRES_LICENSE,directed,Copilot in PowerPoint requires Copilot license.,Licensing,,,Licensing
+copilot_outlook,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Outlook requires Copilot license.,Licensing,,,Licensing
+copilot_teams,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Teams requires Copilot license.,Licensing,,,Licensing
+copilot_onenote,lic_copilot,REQUIRES_LICENSE,directed,Copilot in OneNote requires Copilot license.,Licensing,,,Licensing
+copilot_loop,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Loop requires Copilot license.,Licensing,,,Licensing
+copilot_sharepoint,lic_copilot,REQUIRES_LICENSE,directed,Copilot in SharePoint requires Copilot license.,Licensing,,,Licensing
+copilot_whiteboard,lic_copilot,REQUIRES_LICENSE,directed,Copilot in Whiteboard requires Copilot license.,Licensing,,,Licensing
+# ============================================================
+# COMPLIANCE — Policy Application
+# ============================================================
+comp_retention_policy,app_teams,APPLIES_POLICY,directed,Retention policies apply to Teams.,Compliance,,,Compliance
+comp_retention_policy,store_sharepoint,APPLIES_POLICY,directed,Retention policies apply to SharePoint.,Compliance,,,Compliance
+comp_retention_policy,store_onedrive,APPLIES_POLICY,directed,Retention policies apply to OneDrive.,Compliance,,,Compliance
+comp_retention_policy,store_exchange,APPLIES_POLICY,directed,Retention policies apply to Exchange.,Compliance,,,Compliance
+comp_retention_policy,app_viva_engage,APPLIES_POLICY,directed,Retention policies apply to Viva Engage.,Compliance,,,Compliance
+comp_sensitivity_label,app_word,APPLIES_POLICY,directed,Sensitivity labels apply to Word docs.,Compliance,,,Compliance
+comp_sensitivity_label,app_excel,APPLIES_POLICY,directed,Sensitivity labels apply to Excel files.,Compliance,,,Compliance
+comp_sensitivity_label,app_powerpoint,APPLIES_POLICY,directed,Sensitivity labels apply to PowerPoint files.,Compliance,,,Compliance
+comp_sensitivity_label,app_outlook,APPLIES_POLICY,directed,Sensitivity labels apply to emails.,Compliance,,,Compliance
+comp_sensitivity_label,store_sharepoint,APPLIES_POLICY,directed,Sensitivity labels apply to SharePoint sites.,Compliance,,,Compliance
+comp_sensitivity_label,id_m365_group,APPLIES_POLICY,directed,Sensitivity labels apply to M365 Groups.,Compliance,,,Compliance
+comp_sensitivity_label,app_teams,APPLIES_POLICY,directed,Sensitivity labels apply to Teams.,Compliance,,,Compliance
+comp_sensitivity_label,app_loop,APPLIES_POLICY,directed,Sensitivity labels apply to Loop.,Compliance,,,Compliance
+comp_sensitivity_label,app_power_bi,APPLIES_POLICY,directed,Sensitivity labels apply to Power BI.,Compliance,,,Compliance
+comp_dlp_policy,app_teams,APPLIES_POLICY,directed,DLP policies apply to Teams.,Compliance;DLP,,,Compliance
+comp_dlp_policy,store_sharepoint,APPLIES_POLICY,directed,DLP policies apply to SharePoint.,Compliance;DLP,,,Compliance
+comp_dlp_policy,store_onedrive,APPLIES_POLICY,directed,DLP policies apply to OneDrive.,Compliance;DLP,,,Compliance
+comp_dlp_policy,store_exchange,APPLIES_POLICY,directed,DLP policies apply to Exchange.,Compliance;DLP,,,Compliance
+comp_dlp_policy,app_power_bi,APPLIES_POLICY,directed,DLP policies apply to Power BI.,Compliance;DLP,,,Compliance
+comp_ediscovery,app_teams,DISCOVERED_BY,directed,Teams content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_ediscovery,store_sharepoint,DISCOVERED_BY,directed,SharePoint content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_ediscovery,store_onedrive,DISCOVERED_BY,directed,OneDrive content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_ediscovery,store_exchange,DISCOVERED_BY,directed,Exchange content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_ediscovery,app_viva_engage,DISCOVERED_BY,directed,Viva Engage content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_ediscovery,app_loop,DISCOVERED_BY,directed,Loop content discoverable via eDiscovery.,Compliance;eDiscovery,,,Compliance
+comp_audit_standard,app_teams,APPLIES_POLICY,directed,Audit logging covers Teams activities.,Compliance,,,Compliance
+comp_audit_standard,store_sharepoint,APPLIES_POLICY,directed,Audit logging covers SharePoint activities.,Compliance,,,Compliance
+comp_audit_standard,store_exchange,APPLIES_POLICY,directed,Audit logging covers Exchange activities.,Compliance,,,Compliance
+comp_audit_standard,store_onedrive,APPLIES_POLICY,directed,Audit logging covers OneDrive activities.,Compliance,,,Compliance
+# ============================================================
+# COMPLIANCE — Service relationships
+# ============================================================
+svc_compliance,suite_purview,PART_OF,directed,Compliance Service is part of Purview.,Compliance,,,Compliance
+comp_retention_policy,suite_purview,PART_OF,directed,Retention Policy is a Purview feature.,Compliance,,,Compliance
+comp_sensitivity_label,suite_purview,PART_OF,directed,Sensitivity Label is a Purview feature.,Compliance,,,Compliance
+comp_dlp_policy,suite_purview,PART_OF,directed,DLP Policy is a Purview feature.,Compliance,,,Compliance
+comp_ediscovery,suite_purview,PART_OF,directed,eDiscovery is a Purview feature.,Compliance,,,Compliance
+comp_ediscovery_premium,suite_purview,PART_OF,directed,eDiscovery Premium is a Purview feature.,Compliance,,,Compliance
+comp_audit_standard,suite_purview,PART_OF,directed,Audit Standard is a Purview feature.,Compliance,,,Compliance
+comp_audit_premium,suite_purview,PART_OF,directed,Audit Premium is a Purview feature.,Compliance,,,Compliance
+comp_communication_compliance,suite_purview,PART_OF,directed,Communication Compliance is a Purview feature.,Compliance,,,Compliance
+comp_insider_risk,suite_purview,PART_OF,directed,Insider Risk Management is a Purview feature.,Compliance,,,Compliance
+comp_irm,suite_purview,PART_OF,directed,IRM is a Purview feature.,Compliance,,,Compliance
+comp_compliance_manager,suite_purview,PART_OF,directed,Compliance Manager is a Purview feature.,Compliance,,,Compliance
+comp_records_management,suite_purview,PART_OF,directed,Records Management is a Purview feature.,Compliance,,,Compliance
+comp_adaptive_protection,suite_purview,PART_OF,directed,Adaptive Protection is a Purview feature.,Compliance,,,Compliance
+# ============================================================
+# COMPLIANCE — License Requirements
+# ============================================================
+comp_ediscovery_premium,lic_e5,REQUIRES_LICENSE,directed,eDiscovery Premium requires E5.,Licensing,,,Licensing
+comp_audit_premium,lic_e5,REQUIRES_LICENSE,directed,Audit Premium requires E5.,Licensing,,,Licensing
+comp_communication_compliance,lic_e5,REQUIRES_LICENSE,directed,Communication Compliance requires E5.,Licensing,,,Licensing
+comp_insider_risk,lic_e5,REQUIRES_LICENSE,directed,Insider Risk requires E5.,Licensing,,,Licensing
+comp_adaptive_protection,lic_e5,REQUIRES_LICENSE,directed,Adaptive Protection requires E5.,Licensing,,,Licensing
+# ============================================================
+# SECURITY — Relationships
+# ============================================================
+sec_defender_o365,suite_defender,PART_OF,directed,Defender for O365 is part of Defender suite.,Security,,,Security
+sec_safe_links,sec_defender_o365,PART_OF,directed,Safe Links is part of Defender for O365.,Security,,,Security
+sec_safe_attachments,sec_defender_o365,PART_OF,directed,Safe Attachments is part of Defender for O365.,Security,,,Security
+sec_defender_o365,app_outlook,PROTECTED_BY,directed,Defender protects Outlook.,Security,,,Security
+sec_defender_o365,app_teams,PROTECTED_BY,directed,Defender protects Teams.,Security,,,Security
+sec_defender_o365,store_sharepoint,PROTECTED_BY,directed,Defender protects SharePoint.,Security,,,Security
+sec_defender_o365,store_onedrive,PROTECTED_BY,directed,Defender protects OneDrive.,Security,,,Security
+sec_conditional_access,id_user_account,APPLIES_POLICY,directed,Conditional Access applies to user sign-ins.,Security;Identity,,,Security
+sec_conditional_access,id_service_principal,APPLIES_POLICY,directed,Conditional Access applies to app access.,Security;Identity,,,Security
+sec_pim,lic_e5,REQUIRES_LICENSE,directed,PIM requires E5 or Entra ID P2.,Licensing,,,Licensing
+sec_entra_id_protection,lic_e5,REQUIRES_LICENSE,directed,Entra ID Protection requires E5.,Licensing,,,Licensing
+# ============================================================
+# IDENTITY — Dependencies
+# ============================================================
+id_m365_group,id_user_account,CONTAINS,directed,M365 Group contains user accounts as members.,Identity,,,Identity
+app_teams,id_m365_group,USES_OBJECT,directed,Teams uses M365 Group for membership.,Identity,,,Identity
+app_sharepoint,id_m365_group,USES_OBJECT,directed,SharePoint team sites use M365 Group.,Identity,,,Identity
+app_planner,id_m365_group,USES_OBJECT,directed,Planner uses M365 Group.,Identity,,,Identity
+app_outlook,id_m365_group,USES_OBJECT,directed,Outlook Groups use M365 Group.,Identity,,,Identity
+app_viva_engage,id_m365_group,USES_OBJECT,directed,Viva Engage communities use M365 Group.,Identity,,,Identity
+# ============================================================
+# ADMIN ROLES — Management
+# ============================================================
+store_sharepoint,role_sharepoint_admin,MANAGED_BY,directed,SharePoint managed by SharePoint Admin.,Governance,,,Governance
+store_onedrive,role_sharepoint_admin,MANAGED_BY,directed,OneDrive managed by SharePoint Admin.,Governance,,,Governance
+store_exchange,role_exchange_admin,MANAGED_BY,directed,Exchange managed by Exchange Admin.,Governance,,,Governance
+app_teams,role_teams_admin,MANAGED_BY,directed,Teams managed by Teams Admin.,Governance,,,Governance
+sec_defender_o365,role_security_admin,MANAGED_BY,directed,Defender managed by Security Admin.,Governance,,,Governance
+comp_retention_policy,role_compliance_admin,MANAGED_BY,directed,Retention policies managed by Compliance Admin.,Governance,,,Governance
+comp_sensitivity_label,role_compliance_admin,MANAGED_BY,directed,Sensitivity labels managed by Compliance Admin.,Governance,,,Governance
+comp_dlp_policy,role_compliance_admin,MANAGED_BY,directed,DLP policies managed by Compliance Admin.,Governance,,,Governance
+app_power_apps,role_power_platform_admin,MANAGED_BY,directed,Power Apps managed by Power Platform Admin.,Governance,,,Governance
+app_power_automate,role_power_platform_admin,MANAGED_BY,directed,Power Automate managed by Power Platform Admin.,Governance,,,Governance
+sec_intune,role_intune_admin,MANAGED_BY,directed,Intune managed by Intune Admin.,Governance,,,Governance
+# ============================================================
+# ARCHIVE & BACKUP
+# ============================================================
+store_sharepoint,store_m365_archive,ARCHIVED_IN,directed,Inactive SharePoint sites archived to M365 Archive.,Storage,,,Storage
+store_sharepoint,store_m365_backup,BACKED_UP_TO,directed,SharePoint backed up via M365 Backup.,Storage,,,Storage
+store_onedrive,store_m365_backup,BACKED_UP_TO,directed,OneDrive backed up via M365 Backup.,Storage,,,Storage
+store_exchange,store_m365_backup,BACKED_UP_TO,directed,Exchange backed up via M365 Backup.,Storage,,,Storage
+# ============================================================
+# TECHNOLOGY — Dependencies
+# ============================================================
+feat_teams_notes,tech_fluid,POWERED_BY,directed,Teams Notes powered by Fluid Framework.,Technology,,,Technology
+tech_semantic_index,tech_graph,DEPENDS_ON,directed,Semantic Index depends on Graph for data.,Technology,,,Technology
+feat_sp_syntex,tech_graph,POWERED_BY,directed,SharePoint Premium uses Graph for AI processing.,Technology,,,Technology
+store_spe_shared,tech_spe,POWERED_BY,directed,Shared SPE containers powered by SharePoint Embedded tech.,Technology,,,Technology
+store_spe_user,tech_spe,POWERED_BY,directed,User SPE containers powered by SharePoint Embedded tech.,Technology,,,Technology
+# ============================================================
+# POWER PLATFORM — Additional
+# ============================================================
+app_power_apps,store_dataverse,DEPENDS_ON_SERVICE,directed,Power Apps depends on Dataverse.,Power_Platform,,,Power Platform
+app_power_automate,store_dataverse,DEPENDS_ON_SERVICE,directed,Power Automate depends on Dataverse.,Power_Platform,,,Power Platform
+app_power_automate,app_teams,INTEGRATES_WITH,directed,Power Automate integrates with Teams.,Power_Platform;Teams,,,Power Platform
+app_power_automate,store_sharepoint,INTEGRATES_WITH,directed,Power Automate integrates with SharePoint.,Power_Platform;SharePoint_Online,,,Power Platform
+app_power_automate,store_exchange,INTEGRATES_WITH,directed,Power Automate integrates with Exchange.,Power_Platform;Exchange_Online,,,Power Platform
+app_power_bi,store_sharepoint,INTEGRATES_WITH,directed,Power BI reports can be embedded in SharePoint.,Power_Platform;SharePoint_Online,,,Power Platform
+# ============================================================
+# VIVA — Storage
+# ============================================================
+app_viva_connections,store_sharepoint,DATA_STORED_IN,directed,Viva Connections content stored in SharePoint.,Viva,,,Viva
+
+app_viva_learning,store_sharepoint,DATA_STORED_IN,directed,Viva Learning custom content in SharePoint.,Viva,,,Viva
+# ============================================================
+# DATA RESIDENCY
+# ============================================================
+store_sharepoint,geo_eu,RESIDES_IN_GEO,directed,SharePoint data can reside in EU.,Multi_Geo,,,Data Residency
+store_sharepoint,geo_us,RESIDES_IN_GEO,directed,SharePoint data can reside in US.,Multi_Geo,,,Data Residency
+store_exchange,geo_eu,RESIDES_IN_GEO,directed,Exchange data can reside in EU.,Multi_Geo,,,Data Residency
+store_exchange,geo_us,RESIDES_IN_GEO,directed,Exchange data can reside in US.,Multi_Geo,,,Data Residency
+store_onedrive,geo_eu,RESIDES_IN_GEO,directed,OneDrive data can reside in EU.,Multi_Geo,,,Data Residency
+store_onedrive,geo_us,RESIDES_IN_GEO,directed,OneDrive data can reside in US.,Multi_Geo,,,Data Residency
+store_teams_service,geo_eu,RESIDES_IN_GEO,directed,Teams data can reside in EU.,Multi_Geo,,,Data Residency
+store_teams_service,geo_us,RESIDES_IN_GEO,directed,Teams data can reside in US.,Multi_Geo,,,Data Residency

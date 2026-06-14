@@ -1,0 +1,310 @@
+NodeID,Name,Label,Description,Tags,Reference_URL,Service_Description_URL,Suite,Context,Multi_Geo,Backend,Requires_License,File_Extension
+# ============================================================
+# APP SUITES
+# ============================================================
+suite_m365,Microsoft 365,APP_SUITE,The Microsoft 365 productivity suite.,,,,,,,,
+suite_power_platform,Power Platform,APP_SUITE,Low-code platform for apps and automation.,,,,,,,,
+suite_viva,Microsoft Viva,APP_SUITE,Employee experience platform.,,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/microsoft-viva-service-description,,,,,
+suite_copilot,Microsoft 365 Copilot,APP_SUITE,AI-powered productivity assistant suite.,,https://adoption.microsoft.com/en-gb/copilot/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot,,,,,
+suite_purview,Microsoft Purview,APP_SUITE,Unified data governance and compliance platform.,,https://learn.microsoft.com/en-us/purview/purview,,,,,,
+suite_defender,Microsoft Defender,APP_SUITE,Unified security platform for threat protection.,,,,,,,,
+# ============================================================
+# APPS — Microsoft 365 Core
+# ============================================================
+app_teams,Microsoft Teams,APP,"Hub for teamwork — chat, meetings, channels, voice, apps, and files.",Collaboration;Messaging;Meetings;Voice,https://adoption.microsoft.com/en-gb/microsoft-teams/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/teams-service-description,Microsoft 365,,,,,
+app_outlook,Outlook,APP,Email and personal information management client.,Messaging,https://support.microsoft.com/en-gb/outlook,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,
+app_word,Word,APP,Document authoring and collaboration application.,,https://support.microsoft.com/en-gb/word,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,.docx
+app_excel,Excel,APP,Spreadsheet application for data analysis and calculation.,,https://support.microsoft.com/en-gb/excel,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,.xlsx
+app_powerpoint,PowerPoint,APP,Presentation application for slideshows and graphics.,,https://support.microsoft.com/en-gb/powerpoint,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,.pptx
+app_onenote,OneNote,APP,Digital notebook for free-form information gathering.,,https://support.microsoft.com/en-gb/onenote,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,.one
+app_loop,Loop,APP,Co-creation app for collaborative workspaces and components.,Collaboration;Real_Time,https://adoption.microsoft.com/en-gb/microsoft-loop/,https://learn.microsoft.com/en-gb/microsoft-365/loop/loop-compliance-summary,Microsoft 365,,,,,.loop;.fluid
+app_onedrive,OneDrive,APP,Personal cloud storage with sync and sharing.,Storage,https://adoption.microsoft.com/en-gb/onedrive/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/onedrive-for-business-service-description,Microsoft 365,,,,,
+app_sharepoint,SharePoint,APP,Document management and intranet platform.,Storage;Collaboration,https://adoption.microsoft.com/en-gb/sharepoint/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description,Microsoft 365,,,,,
+app_planner,Planner,APP,Unified work management (Planner + Project for the web + To Do).,Collaboration,https://adoption.microsoft.com/en-gb/microsoft-planner/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/project-online-service-description/microsoft-planner-service-description,Microsoft 365,,,,,
+app_forms,Forms,APP,Online survey and quiz application.,,https://support.microsoft.com/en-gb/forms,https://learn.microsoft.com/en-gb/office365/servicedescriptions/microsoft-forms-service-description,Microsoft 365,,,,,
+app_lists,Lists,APP,Smart information tracking app for structured data.,Collaboration,https://support.microsoft.com/en-gb/microsoft-lists,,Microsoft 365,,,,,
+app_stream,Stream,APP,Video management and sharing in Microsoft 365.,,https://support.microsoft.com/en-gb/stream,,Microsoft 365,,,,,.mp4
+app_whiteboard,Whiteboard,APP,Digital canvas for brainstorming and visual collaboration.,Collaboration;Real_Time,https://support.microsoft.com/en-gb/whiteboard,,Microsoft 365,,,,,.whiteboard
+app_bookings,Bookings,APP,Web-based appointment scheduling calendar service.,,https://learn.microsoft.com/en-us/microsoft-365/bookings/bookings-overview,https://learn.microsoft.com/en-gb/office365/servicedescriptions/microsoft-bookings-service-description,Microsoft 365,,,,,
+app_clipchamp,Clipchamp,APP,Video creation and editing tool.,,https://support.microsoft.com/en-gb/clipchamp,https://learn.microsoft.com/en-gb/office365/servicedescriptions/windows-365-service-description/microsoft-clipchamp-service-description,Microsoft 365,,,,,.mp4
+app_designer,Designer,APP,AI-powered graphic design application.,,https://learn.microsoft.com/en-us/designer/overview,,Microsoft 365,,,,,
+app_sway,Sway,APP,Interactive presentation and storytelling app.,,https://support.microsoft.com/en-gb/sway,,Microsoft 365,,,,,
+app_access,Access,APP,Desktop database application.,,https://support.microsoft.com/en-gb/access,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-applications-service-description/office-applications-service-description,Microsoft 365,,,,,.accdb
+app_project,Project for the web,APP,Project management application.,,https://support.microsoft.com/en-gb/project,,Microsoft 365,,,,,
+app_todo,Microsoft To Do,APP,Personal task management application.,,https://support.microsoft.com/en-gb/todo,,Microsoft 365,,,,,
+app_places,Places,APP,Coordinate with colleagues and book workspaces.,,https://adoption.microsoft.com/en-gb/microsoft-places/,,Microsoft 365,,,,,
+app_people,People,APP,Contact management across Microsoft 365.,,,,Microsoft 365,,,,,
+app_delve,Delve,APP,People and content discovery (being retired).,,,,Microsoft 365,,,,,
+app_m365_groups,Microsoft 365 Groups,APP,Group-based collaboration connecting Teams/SharePoint/Outlook.,,https://support.microsoft.com/en-gb/office/learn-about-groups-in-outlook-b565caa1-5c40-40ef-9915-60fdb2d97fa2,,Microsoft 365,,,,,
+app_outlook_newsletters,Outlook Newsletters,APP,Newsletter creation and distribution via Outlook.,,,,Microsoft 365,,,,,
+# ============================================================
+# APPS — Teams Premium
+# ============================================================
+app_teams_premium,Microsoft Teams Premium,APP,Premium Teams features powered by AI and LLMs.,AI;Meetings,https://adoption.microsoft.com/en-gb/microsoft-teams-premium/,,Microsoft 365,,,,Microsoft 365 E3 + Teams Premium add-on,
+# ============================================================
+# APPS — Copilot
+# ============================================================
+app_copilot,Microsoft 365 Copilot,APP,AI-powered assistant across Microsoft 365 apps.,AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/office-365-platform-service-description/microsoft-365-copilot,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_chat,Microsoft 365 Copilot Chat,APP,Free enterprise AI chat for M365 licensed users.,AI;Copilot,https://adoption.microsoft.com/en-gb/copilot-chat/,,Microsoft 365 Copilot,,,,,
+app_copilot_app,Microsoft 365 Copilot app,APP,"Starting place for AI at work — Search, Chat, Agents, Pages.",AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_pages,Microsoft 365 Copilot Pages,APP,"Interactive canvas for turning Copilot responses into editable, shareable pages.",AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_notebooks,Microsoft 365 Copilot Notebooks,APP,AI workspace for deep thinking and structured problem-solving.,AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_search,Microsoft 365 Copilot Search,APP,AI-powered search experience in M365 Copilot.,AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_studio,Copilot Studio,APP,Platform for building and customizing Copilot agents.,AI;Copilot,https://adoption.microsoft.com/en-gb/copilot-studio/,,Microsoft 365 Copilot,,,,,
+app_agents_m365,Agents in Microsoft 365,APP,Out-of-the-box agents embedded in M365 Copilot Chat and apps.,AI;Copilot,https://adoption.microsoft.com/en-gb/ai-agents/agents-in-microsoft-365/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_copilot_lite_agents,Microsoft 365 Copilot (Lite) Agents,APP,"Prebuilt agents for SharePoint, OneDrive, etc.",AI;Copilot,https://adoption.microsoft.com/en-gb/copilot/,,Microsoft 365 Copilot,,,,Microsoft 365 Copilot,
+app_knowledge_agent,Knowledge Agent,APP,Agent surfacing insights from SharePoint content via Copilot.,AI;Copilot,,,Microsoft 365 Copilot,,,,,
+# ============================================================
+# APPS — Viva
+# ============================================================
+app_viva_engage,Viva Engage,APP,Social networking and community platform (formerly Yammer).,Collaboration,https://adoption.microsoft.com/en-gb/viva/engage/,,Microsoft Viva,,,,,
+app_viva_learning,Viva Learning,APP,Learning management and content aggregation.,,https://adoption.microsoft.com/en-gb/viva/learning/,,Microsoft Viva,,,,,
+app_viva_insights,Viva Insights,APP,Personal and organisational productivity insights.,,https://adoption.microsoft.com/en-gb/viva/insights/,,Microsoft Viva,,,,,
+app_viva_goals,Viva Goals,APP,OKR tracking and goal alignment.,,https://adoption.microsoft.com/en-gb/viva/goals/,,Microsoft Viva,,,,,
+app_viva_connections,Viva Connections,APP,Employee gateway to company resources and news.,,https://adoption.microsoft.com/en-gb/viva/connections/,,Microsoft Viva,,,,,
+app_viva_amplify,Viva Amplify,APP,Internal communications campaign management.,,https://adoption.microsoft.com/en-gb/viva/amplify/,,Microsoft Viva,,,,,
+app_viva_pulse,Viva Pulse,APP,Quick employee feedback surveys.,,https://adoption.microsoft.com/en-gb/viva/pulse/,,Microsoft Viva,,,,,
+app_viva_glint,Viva Glint,APP,Employee engagement surveys and analytics.,,https://adoption.microsoft.com/en-gb/viva/glint/,,Microsoft Viva,,,,,
+# ============================================================
+# APPS — Power Platform
+# ============================================================
+app_power_apps,Power Apps,APP,Low-code application development platform.,,https://powerapps.microsoft.com,,Power Platform,,,,,
+app_power_automate,Power Automate,APP,Workflow automation platform.,,https://powerautomate.microsoft.com,,Power Platform,,,,,
+app_power_bi,Power BI,APP,Business intelligence and data visualisation.,,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/power-bi-service-description,Power Platform,,,,,
+app_power_pages,Power Pages,APP,Low-code external-facing website builder.,,https://powerpages.microsoft.com,,Power Platform,,,,,
+# ============================================================
+# APP SUBSETS
+# ============================================================
+subset_onenote_group,OneNote (Group),APP_SUBSET,OneNote notebook owned by a Microsoft 365 Group.,,,,Microsoft 365,Group,,,,.one
+subset_onenote_personal,OneNote (Personal),APP_SUBSET,OneNote notebook stored in user's OneDrive.,,,,Microsoft 365,User,,,,.one
+subset_list_personal,List (Personal),APP_SUBSET,Personal list stored in OneDrive.,,,,Microsoft 365,User,,,,
+subset_list_site,List (Site),APP_SUBSET,List stored in a SharePoint site.,,,,Microsoft 365,Group,,,,
+# ============================================================
+# STORAGE SERVICES
+# ============================================================
+store_onedrive,OneDrive for Business,STORAGE_SERVICE,"Personal cloud storage (each user gets a SharePoint site collection). Base = 1 TB.",Storage;Multi_Geo,https://adoption.microsoft.com/en-gb/onedrive/,https://learn.microsoft.com/en-gb/office365/servicedescriptions/onedrive-for-business-service-description,Microsoft 365,,Yes,Azure Blob,,
+store_sharepoint,SharePoint Online,STORAGE_SERVICE,Document management platform for team and org content.,Storage;Multi_Geo,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description,Microsoft 365,,Yes,Azure Blob,,
+store_exchange,Exchange Online,STORAGE_SERVICE,"Cloud mailboxes for email, calendar, contacts, tasks. Also stores compliance copies.",Storage;Compliance;Multi_Geo,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/exchange-online-service-description/exchange-online-service-description,Microsoft 365,,Yes,Azure,,
+store_exchange_archive,Exchange Online Archive,STORAGE_SERVICE,Secondary mailbox for long-term email storage.,Storage;Multi_Geo,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/exchange-online-archiving-service-description/exchange-online-archiving-service-description,Microsoft 365,,Yes,Azure,,
+store_spe_shared,SharePoint Embedded (Shared),STORAGE_SERVICE,Embedded containers for shared workspaces. Consumes tenant SharePoint pool.,Storage,,https://learn.microsoft.com/en-gb/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-service-description,Microsoft 365,Group,,Azure Blob,,
+store_spe_user,SharePoint Embedded (User),STORAGE_SERVICE,Embedded containers for user-owned content (Designer/Loop).,Storage,,,Microsoft 365,User,,Azure Blob,,
+store_m365_archive,Microsoft 365 Archive,STORAGE_SERVICE,Cold storage for inactive SharePoint sites. Per-GB cost.,Storage;Multi_Geo,https://adoption.microsoft.com/en-gb/microsoft-365-archive/,,Microsoft 365,,Yes,,,
+store_m365_backup,Microsoft 365 Backup,STORAGE_SERVICE,"Backup copies of SharePoint, OneDrive, and Exchange data.",Storage;Multi_Geo,https://adoption.microsoft.com/en-gb/microsoft-365-backup/,,Microsoft 365,,Yes,,,
+store_azure_blob,Azure Blob Storage,STORAGE_SERVICE,Physical file storage backend for SharePoint and OneDrive.,,https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction,,,,,Azure,,
+store_azure_cosmos,Azure Cosmos DB,STORAGE_SERVICE,"NoSQL database used for Teams, Whiteboard, Forms, etc.",,https://learn.microsoft.com/en-us/azure/cosmos-db/introduction,,,,,Azure,,
+store_azure_sql,Azure SQL Database,STORAGE_SERVICE,Relational database backend for Dataverse and other services.,,https://learn.microsoft.com/en-us/azure/azure-sql/,,,,,Azure,,
+store_dataverse,Microsoft Dataverse,STORAGE_SERVICE,"Common data platform for Power Platform and Dynamics 365. Runs on Azure SQL, Blob, Cosmos DB.",,,,Power Platform,,,Azure SQL;Cosmos DB,,
+store_teams_service,Teams Service,STORAGE_SERVICE,"Backend for active chat threads, message delivery, sync, and presence.",,,,,,,Azure Cosmos DB,,
+# ============================================================
+# FEATURES — Teams
+# ============================================================
+feat_teams_chat,Teams Chat (1:1 and Group),FEATURE,Private and group chat messaging in Teams.,Messaging;Collaboration,,,,,,,,,
+feat_teams_channels,Channels,FEATURE,Channels within a Team for topic-based collaboration.,Collaboration,,,,,,,,,
+feat_channel_general,Channel (General),FEATURE,Default general channel in every Team.,Collaboration,,,,Group,,,,
+feat_channel_private,Channel (Private),FEATURE,Private channel accessible only to selected members.,Collaboration,,,,User,,,,
+feat_channel_shared,Channel (Shared),FEATURE,Shared channel accessible across Teams/tenants.,Collaboration,,,,Group,,,,
+feat_channel_conversations,Channel Conversations,FEATURE,Threaded conversations within a channel.,Messaging,,,,Group,,,,
+feat_chat_messages,Chat Messages,FEATURE,1:1 and group chat messages in Teams.,Messaging,,,,User,,,,
+feat_chat_files,Chat Files,FEATURE,Files shared in Teams private/group chats.,Storage,,,,User,,,,
+feat_channel_files_general,Channel Files (General),FEATURE,Files stored in the General channel's SharePoint folder.,Storage,,,,Group,,,,
+feat_channel_files_private,Channel Files (Private),FEATURE,Files stored in a Private channel's SharePoint site.,Storage,,,,User,,,,
+feat_channel_files_shared,Channel Files (Shared),FEATURE,Files stored in a Shared channel's SharePoint site.,Storage,,,,Group,,,,
+feat_meeting_private,Meeting (Private),FEATURE,Ad-hoc or scheduled private Teams meeting.,Meetings,,,,User,,,,
+feat_meeting_channel,Meeting (Channel),FEATURE,Meeting associated with a Teams channel.,Meetings,,,,Group,,,,
+feat_meeting_recordings,Meeting Recordings,FEATURE,Video recordings of Teams meetings.,Meetings;Storage,,,,,,,,.mp4
+feat_meeting_recordings_channel,Meeting Recordings (Channel),FEATURE,Channel meeting recordings stored in SharePoint.,Meetings;Storage,,,,Group,,,,.mp4
+feat_meeting_recordings_private,Meeting Recordings (Private),FEATURE,Private meeting recordings stored in OneDrive.,Meetings;Storage,,,,User,,,,.mp4
+feat_meeting_transcriptions,Meeting Transcriptions,FEATURE,Searchable transcripts for Teams meetings.,Meetings;Compliance,,,,,,,,.vtt
+feat_meeting_transcriptions_channel,Meeting Transcriptions (Channel),FEATURE,Channel meeting transcriptions stored in SharePoint.,Meetings;Compliance,,,,Group,,,,.vtt
+feat_meeting_transcriptions_private,Meeting Transcriptions (Private),FEATURE,Private meeting transcriptions stored in OneDrive.,Meetings;Compliance,,,,User,,,,.vtt
+feat_teams_voicemail,Voicemail,FEATURE,Teams Phone voicemail messages.,Voice,,,,User,,,,
+feat_teams_call_history,Call History,FEATURE,Record of calls made in Teams.,Voice,,,,User,,,,
+feat_teams_wiki,Teams Wiki (Legacy),FEATURE,Legacy wiki feature in Teams channels (deprecated).,,,,,,,,,,
+feat_teams_notes,Teams Notes,FEATURE,Collaborative meeting notes in Teams (Loop-based).,Collaboration;Real_Time,,,,,,,,.loop
+# ============================================================
+# FEATURES — SharePoint
+# ============================================================
+feat_sp_document_library,Document Library,FEATURE,Stores documents and files within a SharePoint site.,Storage;Collaboration,,,,,,,,,
+feat_sp_lists,Lists (SharePoint),FEATURE,Structured data lists in SharePoint sites.,Collaboration,,,,,,,,,
+feat_sp_pages,Pages,FEATURE,Web pages for content presentation in SharePoint.,Collaboration,,,,,,,,.aspx
+feat_sp_content_types,Content Types,FEATURE,Defines metadata and templates for content management.,Compliance,,,,,,,,,
+feat_sp_term_store,Term Store,FEATURE,Managed metadata service for taxonomy and tagging.,Compliance,,,,,,,,,
+feat_sp_recycle_bin,Recycle Bin,FEATURE,Temporary storage for deleted items before permanent deletion.,Storage;Compliance,,,,,,,,,
+feat_sp_versioning,Versioning,FEATURE,Document version history in SharePoint/OneDrive.,Storage,,,,,,,,,
+feat_sp_hub_site,Hub Site,FEATURE,Hub for associating and organising SharePoint sites.,,,,,,,,,
+feat_sp_search,SharePoint Search,FEATURE,Enterprise search across SharePoint content.,,,,,,,,,
+feat_sp_syntex,SharePoint Premium (Syntex),FEATURE,AI-powered content processing and management.,AI,,,,,,,,,
+# ============================================================
+# FEATURES — Loop
+# ============================================================
+feat_loop_workspace,Loop Workspace,FEATURE,Organisational container for Loop pages and components.,Collaboration;Storage,,,,,,,,,
+feat_loop_pages,Loop Pages,FEATURE,Pages that host multiple Loop components.,Collaboration,,,,,,,,.loop
+feat_loop_components,Loop Components,FEATURE,Real-time collaborative components embeddable across apps.,Collaboration;Real_Time,,,,,,,,".loop;.fluid"
+feat_loop_in_teams_chat,Loop Component in Teams Chat,FEATURE,Loop component embedded in a Teams chat.,Collaboration;Real_Time,,,,User,,,,".loop;.fluid"
+feat_loop_in_teams_meeting,Loop Component in Teams Meeting,FEATURE,Loop component embedded in a Teams meeting chat.,Collaboration;Real_Time,,,,User,,,,".loop;.fluid"
+feat_loop_in_outlook,Loop Component in Outlook,FEATURE,Loop component embedded in an Outlook email.,Collaboration;Real_Time,,,,User,,,,".loop;.fluid"
+feat_loop_in_onenote,Loop Component in OneNote,FEATURE,Loop component embedded in OneNote.,Collaboration;Real_Time,,,,User,,,,".loop;.fluid"
+feat_loop_in_whiteboard,Loop Component in Whiteboard,FEATURE,Loop component embedded in Whiteboard.,Collaboration;Real_Time,,,,User,,,,".loop;.fluid"
+# ============================================================
+# FEATURES — OneDrive
+# ============================================================
+feat_od_sync,OneDrive Sync,FEATURE,File synchronisation between cloud and local device.,Storage,,,,,,,,,
+feat_od_known_folder_move,Known Folder Move,FEATURE,Redirects Desktop/Documents/Pictures to OneDrive.,Storage,,,,,,,,,
+feat_od_personal_vault,Personal Vault,FEATURE,Extra-secure folder in OneDrive with 2FA.,Security;Storage,,,,,,,,,
+feat_od_sharing,OneDrive Sharing,FEATURE,File and folder sharing capabilities in OneDrive.,Collaboration;External_Sharing,,,,,,,,,
+# ============================================================
+# FEATURES — Exchange
+# ============================================================
+feat_exo_email,Email,DATA_TYPE,Email messages in Exchange Online.,Messaging,,,,,,,,".eml;.msg"
+feat_exo_calendar,Calendar Items,DATA_TYPE,Calendar events and meeting invites.,,,,,,,,,.ics
+feat_exo_contacts,Contacts,DATA_TYPE,Contact entries in Exchange Online.,,,,,,,,,,
+feat_exo_tasks,Tasks,DATA_TYPE,Tasks stored in Exchange Online.,,,,,,,,,,
+feat_exo_transport_rules,Transport Rules (Mail Flow),FEATURE,Rules that process email in transit.,Compliance;Security,,,,,,,,,
+feat_exo_journaling,Journaling,FEATURE,Email journaling for compliance.,Compliance,,,,,,,,,
+feat_exo_public_folders,Public Folders,FEATURE,Shared mailbox folders for organisation-wide content.,Collaboration,,,,,,,,,
+feat_exo_dlp_tips,DLP Policy Tips,FEATURE,User notifications when content matches DLP policies.,DLP;Compliance,,,,,,,,,
+# ============================================================
+# SITE TYPES — SharePoint
+# ============================================================
+site_team,Team Site (Group-connected),SITE_TYPE,SharePoint site connected to a Microsoft 365 Group.,Collaboration,,,,Group,,,,
+site_communication,Communication Site,SITE_TYPE,SharePoint site for broad internal communication.,,,,,,,,,,
+site_hub,Hub Site,SITE_TYPE,SharePoint hub for associating related sites.,,,,,,,,,,
+site_channel_standard,Channel Site (Standard),SITE_TYPE,SharePoint folder for a standard Teams channel.,,,,,,,,,
+site_channel_private,Channel Site (Private),SITE_TYPE,Separate SharePoint site collection for a private channel.,,,,,,,,,,
+site_channel_shared,Channel Site (Shared),SITE_TYPE,Separate SharePoint site collection for a shared channel.,,,,,,,,,,
+site_onedrive,OneDrive Site,SITE_TYPE,Personal SharePoint site collection for each user's OneDrive.,,,,User,,,,
+# ============================================================
+# MAILBOX TYPES
+# ============================================================
+mbox_user,User Mailbox,MAILBOX_TYPE,Standard Exchange Online mailbox for a user.,,,,,,,,,,
+mbox_shared,Shared Mailbox,MAILBOX_TYPE,Mailbox used by multiple users without separate license.,,,,,,,,,,
+mbox_group,Group Mailbox,MAILBOX_TYPE,Mailbox associated with a Microsoft 365 Group.,,,,,Group,,,,
+mbox_inactive,Inactive Mailbox,MAILBOX_TYPE,Preserved mailbox for compliance after user leaves.,Compliance,,,,,,,,,
+mbox_public_folder,Public Folder Mailbox,MAILBOX_TYPE,Mailbox that hosts public folders.,,,,,,,,,,
+mbox_archive,Archive Mailbox,MAILBOX_TYPE,In-place archive for long-term email storage.,Compliance,,,,,,,,,
+mbox_resource,Resource Mailbox,MAILBOX_TYPE,Room or equipment mailbox for scheduling.,,,,,,,,,,
+# ============================================================
+# IDENTITY OBJECTS
+# ============================================================
+id_m365_group,Microsoft 365 Group,IDENTITY_OBJECT,"Provides identity and membership for Teams, SharePoint, Planner.",Microsoft_365_Group,https://learn.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-groups-overview,,,,,,,,
+id_user_account,User Account,IDENTITY_OBJECT,Individual user identity in Entra ID.,Identity;User,,,,,,,,,
+id_security_group,Security Group,IDENTITY_OBJECT,Group used for access control (no M365 services provisioned).,Identity,,,,,,,,,
+id_distribution_group,Distribution Group,IDENTITY_OBJECT,Mail-enabled group for email distribution.,Identity,,,,,,,,,
+id_dynamic_group,Dynamic Group,IDENTITY_OBJECT,Group with membership defined by rules/queries.,Identity,,,,,,,,,
+id_service_principal,Service Principal,IDENTITY_OBJECT,App identity for automated access to resources.,Identity,,,,,,,,,
+id_managed_identity,Managed Identity,IDENTITY_OBJECT,Azure-managed identity for service-to-service auth.,Identity,,,,,,,,,
+id_app_registration,App Registration,IDENTITY_OBJECT,Application registered in Entra ID for API access.,Identity,,,,,,,,,
+id_guest_user,Guest User,IDENTITY_OBJECT,External user invited to the tenant.,Guest_User;Identity,,,,,,,,,
+id_sp_permission_group,SharePoint Permission Group,IDENTITY_OBJECT,Site-level permission group in SharePoint.,Identity,,,,,,,,,
+# ============================================================
+# COMPLIANCE FEATURES — Microsoft Purview
+# ============================================================
+comp_retention_policy,Retention Policy,COMPLIANCE_FEATURE,Defines how long data is retained and when deleted.,Retention;Compliance,,,,,,,,,
+comp_retention_label,Retention Label,COMPLIANCE_FEATURE,Label applied to individual items for retention.,Retention;Compliance,,,,,,,,,
+comp_sensitivity_label,Sensitivity Label,COMPLIANCE_FEATURE,Classification label for data protection (encryption/marking).,Sensitivity_Label;Compliance,,,,,,,,,
+comp_dlp_policy,DLP Policy,COMPLIANCE_FEATURE,Data Loss Prevention policy to detect and protect sensitive data.,DLP;Compliance,,,,,,,,,
+comp_ediscovery,eDiscovery,COMPLIANCE_FEATURE,Content search and legal hold for litigation.,eDiscovery;Compliance,,,,,,,,,
+comp_ediscovery_premium,eDiscovery (Premium),COMPLIANCE_FEATURE,Advanced eDiscovery with analytics and review sets.,eDiscovery;Compliance,,,,,,,,Microsoft 365 E5,
+comp_audit_standard,Audit (Standard),COMPLIANCE_FEATURE,Standard audit logging for M365 activities.,Compliance,,,,,,,,,
+comp_audit_premium,Audit (Premium),COMPLIANCE_FEATURE,Extended audit retention and high-value event logging.,Compliance,,,,,,,,Microsoft 365 E5,
+comp_communication_compliance,Communication Compliance,COMPLIANCE_FEATURE,Monitors communications for policy violations.,Compliance,,,,,,,,Microsoft 365 E5,
+comp_insider_risk,Insider Risk Management,COMPLIANCE_FEATURE,Detects and responds to insider threats.,Compliance;Security,,,,,,,,Microsoft 365 E5,
+comp_irm,Information Rights Management,COMPLIANCE_FEATURE,Protects documents with encryption and usage rights.,Compliance,,,,,,,,,
+comp_compliance_manager,Compliance Manager,COMPLIANCE_FEATURE,Compliance posture assessment and score.,Compliance_Score;Compliance,,,,,,,,,
+comp_records_management,Records Management,COMPLIANCE_FEATURE,File plan and disposition for regulatory records.,Compliance,,,,,,,,,
+comp_adaptive_protection,Adaptive Protection,COMPLIANCE_FEATURE,Dynamic DLP policies based on insider risk levels.,Compliance;DLP,,,,,,,,Microsoft 365 E5,
+# ============================================================
+# SECURITY FEATURES
+# ============================================================
+sec_defender_o365,Defender for Office 365,SECURITY_FEATURE,Threat protection for email and collaboration tools.,Security,,,,,,,,,
+sec_safe_links,Safe Links,SECURITY_FEATURE,URL scanning and rewriting for malicious links.,Security,,,,,,,,,
+sec_safe_attachments,Safe Attachments,SECURITY_FEATURE,Sandbox-based attachment scanning.,Security,,,,,,,,,
+sec_conditional_access,Conditional Access,SECURITY_FEATURE,Access control policies based on conditions.,Conditional_Access;Security,,,,,,,,,
+sec_mfa,Multi-Factor Authentication,SECURITY_FEATURE,Additional authentication factor requirement.,Security;Identity,,,,,,,,,
+sec_pim,Privileged Identity Management,SECURITY_FEATURE,Just-in-time privileged access management.,Security;Identity,,,,,,,,Microsoft 365 E5,
+sec_secure_score,Secure Score,SECURITY_FEATURE,Security posture measurement and recommendations.,Secure_Score;Security,,,,,,,,,
+sec_intune,Microsoft Intune,SECURITY_FEATURE,Endpoint management and device compliance.,Device;Security,,,,,,,,,
+sec_entra_id_protection,Entra ID Protection,SECURITY_FEATURE,Risk-based sign-in and user risk detection.,Security;Identity,,,,,,,,,
+# ============================================================
+# COPILOT EXPERIENCES
+# ============================================================
+copilot_word,Copilot in Word,COPILOT_EXPERIENCE,AI writing assistant in Word.,AI;Copilot,,,,Word,,,,Microsoft 365 Copilot,
+copilot_excel,Copilot in Excel,COPILOT_EXPERIENCE,AI analytics assistant in Excel.,AI;Copilot,,,,Excel,,,,Microsoft 365 Copilot,
+copilot_powerpoint,Copilot in PowerPoint,COPILOT_EXPERIENCE,AI presentation designer in PowerPoint.,AI;Copilot,,,,PowerPoint,,,,Microsoft 365 Copilot,
+copilot_outlook,Copilot in Outlook,COPILOT_EXPERIENCE,AI email assistant in Outlook.,AI;Copilot,,,,Outlook,,,,Microsoft 365 Copilot,
+copilot_teams,Copilot in Teams,COPILOT_EXPERIENCE,"AI assistant in Teams (meeting summaries, chat help).",AI;Copilot,,,,Teams,,,,Microsoft 365 Copilot,
+copilot_onenote,Copilot in OneNote,COPILOT_EXPERIENCE,AI note-taking assistant.,AI;Copilot,,,,OneNote,,,,Microsoft 365 Copilot,
+copilot_loop,Copilot in Loop,COPILOT_EXPERIENCE,AI assistant in Loop workspaces.,AI;Copilot,,,,Loop,,,,Microsoft 365 Copilot,
+copilot_sharepoint,Copilot in SharePoint,COPILOT_EXPERIENCE,AI assistant for SharePoint pages.,AI;Copilot,,,,SharePoint,,,,Microsoft 365 Copilot,
+copilot_whiteboard,Copilot in Whiteboard,COPILOT_EXPERIENCE,AI assistant for brainstorming and diagrams.,AI;Copilot,,,,Whiteboard,,,,Microsoft 365 Copilot,
+copilot_power_apps,Copilot in Power Apps,COPILOT_EXPERIENCE,AI assistant for app building.,AI;Copilot,,,,Power Apps,,,,Microsoft 365 Copilot,
+copilot_power_automate,Copilot in Power Automate,COPILOT_EXPERIENCE,AI assistant for workflow automation.,AI;Copilot,,,,Power Automate,,,,Microsoft 365 Copilot,
+copilot_power_bi,Copilot in Power BI,COPILOT_EXPERIENCE,AI assistant for data insights.,AI;Copilot,,,,Power BI,,,,Microsoft 365 Copilot,
+# ============================================================
+# TECHNOLOGY
+# ============================================================
+tech_fluid,Fluid Framework,TECHNOLOGY,Real-time collaboration framework powering Loop and live components.,,,,,,,,,,
+tech_graph,Microsoft Graph,TECHNOLOGY,Unified API for accessing M365 data and intelligence.,,,,,,,,,,
+tech_semantic_index,Semantic Index,TECHNOLOGY,AI index that grounds Copilot responses in org data.,,,,,,,,,,
+tech_spe,SharePoint Embedded,TECHNOLOGY,Headless SharePoint storage for app-managed containers.,,,,,,,,,,
+tech_graph_connectors,Graph Connectors,TECHNOLOGY,Connectors that bring external data into Microsoft Graph.,,,,,,,,,,
+tech_copilot_plugins,Copilot Plugins,TECHNOLOGY,Extensions that add skills and data access to Copilot.,,,,,,,,,,
+tech_adaptive_cards,Adaptive Cards,TECHNOLOGY,Cross-platform card framework for rich content rendering.,,,,,,,,,,
+# ============================================================
+# SERVICES
+# ============================================================
+svc_teams,Teams Service,SERVICE,"Backend for message delivery, sync, and presence.",,,,,,,,,
+svc_compliance,Compliance Service,SERVICE,Enforces retention and eDiscovery policies across M365.,Compliance,,,,,,,,
+svc_substrate,Substrate,SERVICE,Shared infrastructure layer across M365 services.,,,,,,,,,,
+# ============================================================
+# DATA TYPES
+# ============================================================
+data_chat_message,Chat Message,DATA_TYPE,1:1 or group chat message in Teams.,Messaging,,,,User,,,,
+data_channel_message,Channel Message,DATA_TYPE,Message posted in a Teams channel.,Messaging,,,,Group,,,,
+data_email,Email Message,DATA_TYPE,Email message in Exchange Online.,Messaging,,,,,,,,"eml;.msg"
+data_calendar_item,Calendar Item,DATA_TYPE,Calendar event or meeting invite.,,,,,,,,,.ics
+data_voicemail,Voicemail,DATA_TYPE,Voice message from Teams Phone.,Voice,,,,User,,,,
+data_call_record,Call Record,DATA_TYPE,Record of a Teams call.,Voice,,,,,,,,
+# ============================================================
+# DATA RESIDENCY
+# ============================================================
+geo_eu,European Union,DATA_RESIDENCY,EU data centres for GDPR compliance.,,,,,,,,,,
+geo_us,United States,DATA_RESIDENCY,US data centres.,,,,,,,,,,
+geo_uk,United Kingdom,DATA_RESIDENCY,UK data centres.,,,,,,,,,,
+geo_aus,Australia,DATA_RESIDENCY,Australian data centres.,,,,,,,,,,
+geo_jpn,Japan,DATA_RESIDENCY,Japanese data centres.,,,,,,,,,,
+geo_can,Canada,DATA_RESIDENCY,Canadian data centres.,,,,,,,,,,
+# ============================================================
+# LICENSES
+# ============================================================
+lic_e3,Microsoft 365 E3,LICENSE,Enterprise license with core productivity and security.,,,,,,,,,,
+lic_e5,Microsoft 365 E5,LICENSE,Enterprise license with advanced compliance and security.,,,,,,,,,,
+lic_e5_compliance,Microsoft 365 E5 Compliance,LICENSE,Add-on for advanced compliance features.,,,,,,,,,,
+lic_e5_security,Microsoft 365 E5 Security,LICENSE,Add-on for advanced security features.,,,,,,,,,,
+lic_business_basic,Microsoft 365 Business Basic,LICENSE,Web and mobile apps for small business.,,,,,,,,,,
+lic_business_standard,Microsoft 365 Business Standard,LICENSE,Desktop apps plus cloud services for small business.,,,,,,,,,,
+lic_business_premium,Microsoft 365 Business Premium,LICENSE,Business Standard plus advanced security.,,,,,,,,,,
+lic_copilot,Microsoft 365 Copilot,LICENSE,Add-on license for Copilot across M365 apps.,,,,,,,,,,
+lic_teams_premium,Teams Premium,LICENSE,Add-on for advanced Teams features.,,,,,,,,,,
+lic_syntex,SharePoint Premium (Syntex),LICENSE,Add-on for AI content processing.,,,,,,,,,,
+# ============================================================
+# ADMIN ROLES
+# ============================================================
+role_global_admin,Global Administrator,ADMIN_ROLE,Full access to all M365 admin features.,,,,,,,,,,
+role_sharepoint_admin,SharePoint Administrator,ADMIN_ROLE,Manages SharePoint Online and OneDrive settings.,,,,,,,,,,
+role_exchange_admin,Exchange Administrator,ADMIN_ROLE,Manages Exchange Online configuration.,,,,,,,,,,
+role_teams_admin,Teams Administrator,ADMIN_ROLE,Manages Microsoft Teams settings and policies.,,,,,,,,,,
+role_security_admin,Security Administrator,ADMIN_ROLE,Manages security features across M365.,,,,,,,,,,
+role_compliance_admin,Compliance Administrator,ADMIN_ROLE,Manages Purview compliance features.,,,,,,,,,,
+role_user_admin,User Administrator,ADMIN_ROLE,Manages user accounts and group membership.,,,,,,,,,,
+role_intune_admin,Intune Administrator,ADMIN_ROLE,Manages endpoint and device policies.,,,,,,,,,,
+role_power_platform_admin,Power Platform Administrator,ADMIN_ROLE,Manages Power Platform environments.,,,,,,,,,,
+# ============================================================
+# POLICIES (Example instances)
+# ============================================================
+pol_retention_7yr,7-Year Retention Policy,POLICY,Retains content for 7 years then deletes.,Retention,,,,,,,,
+pol_retention_default,Default Retention Policy,POLICY,Organisation-wide default retention settings.,Retention,,,,,,,,
+pol_label_confidential,Confidential Label,POLICY,Sensitivity label applying encryption for confidential content.,Sensitivity_Label,,,,,,,,
+pol_label_internal,Internal Only Label,POLICY,Sensitivity label marking content as internal only.,Sensitivity_Label,,,,,,,,
+pol_dlp_credit_card,Credit Card DLP Rule,POLICY,DLP rule detecting credit card numbers.,DLP,,,,,,,,
+pol_ca_require_mfa,Require MFA Policy,POLICY,Conditional Access policy requiring MFA for all users.,Conditional_Access,,,,,,,,
