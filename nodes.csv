@@ -243,17 +243,7 @@ comp_compliance_manager,Compliance Manager,COMPLIANCE_FEATURE,Compliance posture
 comp_records_management,Records Management,COMPLIANCE_FEATURE,File plan and disposition for regulatory records.,Compliance,,,,,,,,,
 comp_adaptive_protection,Adaptive Protection,COMPLIANCE_FEATURE,Dynamic DLP policies based on insider risk levels.,Compliance;DLP,,,,,,,,Microsoft 365 E5,
 # ============================================================
-# SECURITY FEATURES
 # ============================================================
-sec_defender_o365,Defender for Office 365,SECURITY_FEATURE,Threat protection for email and collaboration tools.,Security,,,,,,,,,
-sec_safe_links,Safe Links,SECURITY_FEATURE,URL scanning and rewriting for malicious links.,Security,,,,,,,,,
-sec_safe_attachments,Safe Attachments,SECURITY_FEATURE,Sandbox-based attachment scanning.,Security,,,,,,,,,
-sec_conditional_access,Conditional Access,SECURITY_FEATURE,Access control policies based on conditions.,Conditional_Access;Security,,,,,,,,,
-sec_mfa,Multi-Factor Authentication,SECURITY_FEATURE,Additional authentication factor requirement.,Security;Identity,,,,,,,,,
-sec_pim,Privileged Identity Management,SECURITY_FEATURE,Just-in-time privileged access management.,Security;Identity,,,,,,,,Microsoft 365 E5,
-sec_secure_score,Secure Score,SECURITY_FEATURE,Security posture measurement and recommendations.,Secure_Score;Security,,,,,,,,,
-sec_intune,Microsoft Intune,SECURITY_FEATURE,Endpoint management and device compliance.,Device;Security,,,,,,,,,
-sec_entra_id_protection,Entra ID Protection,SECURITY_FEATURE,Risk-based sign-in and user risk detection.,Security;Identity,,,,,,,,,
 # ============================================================
 # COPILOT EXPERIENCES
 # ============================================================
@@ -304,30 +294,9 @@ geo_aus,Australia,DATA_RESIDENCY,Australian data centres.,,,,,,,,,,
 geo_jpn,Japan,DATA_RESIDENCY,Japanese data centres.,,,,,,,,,,
 geo_can,Canada,DATA_RESIDENCY,Canadian data centres.,,,,,,,,,,
 # ============================================================
-# LICENSES
 # ============================================================
-lic_e3,Microsoft 365 E3,LICENSE,Enterprise license with core productivity and security.,,,,,,,,,,
-lic_e5,Microsoft 365 E5,LICENSE,Enterprise license with advanced compliance and security.,,,,,,,,,,
-lic_e5_compliance,Microsoft 365 E5 Compliance,LICENSE,Add-on for advanced compliance features.,,,,,,,,,,
-lic_e5_security,Microsoft 365 E5 Security,LICENSE,Add-on for advanced security features.,,,,,,,,,,
-lic_business_basic,Microsoft 365 Business Basic,LICENSE,Web and mobile apps for small business.,,,,,,,,,,
-lic_business_standard,Microsoft 365 Business Standard,LICENSE,Desktop apps plus cloud services for small business.,,,,,,,,,,
-lic_business_premium,Microsoft 365 Business Premium,LICENSE,Business Standard plus advanced security.,,,,,,,,,,
-lic_copilot,Microsoft 365 Copilot,LICENSE,Add-on license for Copilot across M365 apps.,,,,,,,,,,
-lic_teams_premium,Teams Premium,LICENSE,Add-on for advanced Teams features.,,,,,,,,,,
-lic_syntex,SharePoint Premium (Syntex),LICENSE,Add-on for AI content processing.,,,,,,,,,,
 # ============================================================
-# ADMIN ROLES
 # ============================================================
-role_global_admin,Global Administrator,ADMIN_ROLE,Full access to all M365 admin features.,,,,,,,,,,
-role_sharepoint_admin,SharePoint Administrator,ADMIN_ROLE,Manages SharePoint Online and OneDrive settings.,,,,,,,,,,
-role_exchange_admin,Exchange Administrator,ADMIN_ROLE,Manages Exchange Online configuration.,,,,,,,,,,
-role_teams_admin,Teams Administrator,ADMIN_ROLE,Manages Microsoft Teams settings and policies.,,,,,,,,,,
-role_security_admin,Security Administrator,ADMIN_ROLE,Manages security features across M365.,,,,,,,,,,
-role_compliance_admin,Compliance Administrator,ADMIN_ROLE,Manages Purview compliance features.,,,,,,,,,,
-role_user_admin,User Administrator,ADMIN_ROLE,Manages user accounts and group membership.,,,,,,,,,,
-role_intune_admin,Intune Administrator,ADMIN_ROLE,Manages endpoint and device policies.,,,,,,,,,,
-role_power_platform_admin,Power Platform Administrator,ADMIN_ROLE,Manages Power Platform environments.,,,,,,,,,,
 # ============================================================
 # POLICIES (Example instances)
 # ============================================================
@@ -399,13 +368,7 @@ comp_sit,Sensitive Information Types,COMPLIANCE_FEATURE,Pattern-based classifier
 comp_trainable_classifiers,Trainable Classifiers,COMPLIANCE_FEATURE,ML-based content classifiers trained on org data.,AI;Compliance,,,,,,,,Microsoft 365 E5,
 comp_exact_data_match,Exact Data Match,COMPLIANCE_FEATURE,Fingerprint-based detection matching exact data values.,DLP;Compliance,,,,,,,,Microsoft 365 E5,
 # ============================================================
-# SECURITY FEATURES — Additional
 # ============================================================
-sec_attack_simulation,Attack Simulation Training,SECURITY_FEATURE,Phishing simulation and security awareness training.,Security,,,,,,,,Microsoft 365 E5,
-sec_threat_explorer,Threat Explorer,SECURITY_FEATURE,Real-time threat investigation in Defender for O365.,Security,,,,,,,,Microsoft 365 E5,
-sec_aip_scanner,AIP Scanner,SECURITY_FEATURE,On-premises file scanner for sensitivity labels.,Security;Compliance,,,,,,,,,
-sec_easm,External Attack Surface Management,SECURITY_FEATURE,Discovers and monitors internet-facing assets.,Security,,,,,,,,,
-sec_data_security_posture,Data Security Posture Management,SECURITY_FEATURE,Discovers and protects sensitive data across multi-cloud.,Security;Compliance,,,,,,,,,
 # ============================================================
 # COPILOT EXPERIENCES — Additional
 # ============================================================
@@ -440,20 +403,93 @@ data_form_response,Form Response,DATA_TYPE,Individual response to a Forms survey
 data_planner_task,Planner Task,DATA_TYPE,Task item in Microsoft Planner.,Collaboration,,,,,,,,,
 data_power_automate_flow,Power Automate Flow,DATA_TYPE,Workflow definition in Power Automate.,Power_Platform,,,,,,,,,
 # ============================================================
-# LICENSES — Additional
 # ============================================================
-lic_f1,Microsoft 365 F1,LICENSE,Frontline worker license with web/mobile apps only.,,,,,,,,,,
-lic_f3,Microsoft 365 F3,LICENSE,Frontline worker license with desktop apps.,,,,,,,,,,
-lic_teams_phone,Teams Phone Standard,LICENSE,Add-on for PSTN calling in Teams.,,,,,,,,,,
-lic_teams_rooms,Teams Rooms,LICENSE,License for Teams Rooms devices.,,,,,,,,,,
-lic_power_automate_premium,Power Automate Premium,LICENSE,Add-on for premium connectors and AI in Power Automate.,,,,,,,,,,
-lic_copilot_studio,Copilot Studio,LICENSE,License for building custom agents.,,,,,,,,,,
-lic_entra_p2,Microsoft Entra ID P2,LICENSE,Premium identity features (PIM and ID Protection).,,,,,,,,,,
 # ============================================================
-# ADMIN ROLES — Additional
 # ============================================================
-role_knowledge_admin,Knowledge Administrator,ADMIN_ROLE,Manages Topics and knowledge settings.,,,,,,,,,,
-role_search_admin,Search Administrator,ADMIN_ROLE,Manages Microsoft Search configuration.,,,,,,,,,,
-role_billing_admin,Billing Administrator,ADMIN_ROLE,Manages subscriptions and billing.,,,,,,,,,,
-role_groups_admin,Groups Administrator,ADMIN_ROLE,Manages all group types in the tenant.,,,,,,,,,,
-role_authentication_admin,Authentication Administrator,ADMIN_ROLE,Manages authentication methods and MFA settings.,,,,,,,,,,
+
+# ============================================================
+# ADDITIONAL FEATURES - Teams compliance, meetings, other apps
+# ============================================================
+feat_teams_chat_compliance,Chat Compliance Copies (1:1/Group),FEATURE,Compliance copies of Teams 1:1 and group chat messages stored in user mailboxes.,compliance;Teams;chat,,,,Teams,,,,
+feat_teams_channel_compliance,Channel Compliance Copies (Standard/Shared),FEATURE,Compliance copies of Teams standard and shared channel messages stored in group mailbox.,compliance;Teams;channel,,,,Teams,,,,
+feat_teams_private_channel_compliance,Private Channel Compliance Copies,FEATURE,Compliance copies of Teams private channel messages stored in group mailbox (Sep 2025 change).,compliance;Teams;private channel,,,,Teams,,,,
+feat_teams_meeting_chat_compliance,Meeting Chat Compliance Copies,FEATURE,Compliance copies of Teams meeting chat messages.,compliance;Teams;meeting,,,,Teams,,,,
+feat_teams_cdr,Call Detail Records,FEATURE,Call Detail Records stored for compliance in Exchange Online.,compliance;Teams;calling,,,,Teams,,,,
+feat_teams_meeting_whiteboard,Meeting Whiteboard,FEATURE,Whiteboard drawings created during Teams meetings.,collaboration;Teams;meeting,,,,Teams,,,,
+feat_teams_meeting_notes,Meeting Notes,FEATURE,Notes taken during Teams meetings by the organiser.,collaboration;Teams;meeting,,,,Teams,,,,
+feat_teams_meeting_polls,Meeting Polls,FEATURE,Polls created during Teams meetings via Forms.,collaboration;Teams;meeting,,,,Teams,,,,
+feat_teams_channel_email,Emails Forwarded to Channel,FEATURE,Emails sent to a Teams channel stored in SharePoint.,collaboration;Teams;channel,,,,Teams,,,,
+feat_teams_channel_onenote,Channel OneNote,FEATURE,Default OneNote notebook for a Teams channel.,collaboration;Teams;channel,,,,Teams,,,,
+feat_teams_channel_planner,Channel Planner Attachments,FEATURE,File attachments from Planner tasks in a Team.,collaboration;Teams;channel,,,,Teams,,,,
+feat_bookings_mailbox,Bookings Calendar Mailbox,FEATURE,Dedicated Exchange mailbox provisioned for Bookings scheduling.,Exchange;Bookings,,,,Bookings,,,,
+feat_copilot_interactions,Copilot Interactions,FEATURE,Copilot prompts and responses stored as compliance copies in user mailbox.,compliance;Copilot;AI,,,,Copilot,,,,
+feat_sway_content,Sway Content,FEATURE,Sway presentations stored as compliance copies in user mailbox.,compliance;Sway,,,,Sway,,,,
+feat_forms_responses,Forms Responses,FEATURE,Form templates and responses stored in Forms service with compliance copies in mailbox.,compliance;Forms,,,,Forms,,,,
+feat_whiteboard_files,Whiteboard Files,FEATURE,Whiteboard drawings stored in user OneDrive.,collaboration;Whiteboard,,,,Whiteboard,,,,
+feat_clipchamp_projects,Clipchamp Projects,FEATURE,Clipchamp video editing projects stored in user OneDrive.,video;Clipchamp,,,,Clipchamp,,,,
+feat_planner_tasks,Planner Task Metadata,FEATURE,Planner task metadata stored in regional datacenters with attachments in SharePoint.,Planner;tasks,,,,Planner,,,,
+store_regional_dc,Regional Microsoft Datacenters,STORAGE_SERVICE,Microsoft-managed regional datacenters for services without dedicated M365 storage.,,,,,,,,,
+# ============================================================
+# ARCHITECTURE LAYERS
+# ============================================================
+layer_identity,Identity Layer,ARCHITECTURE_LAYER,"Layer representing identity, ownership, groups, and access.",Layer;Identity,,,,,,,,
+# ============================================================
+# CONTAINERS
+# ============================================================
+container_user_mailbox,User Mailbox Container,CONTAINER,Logical mailbox container for a user.,Container;Exchange,,,,User,,,,
+container_group_mailbox,Group Mailbox Container,CONTAINER,Logical mailbox container for a Microsoft 365 Group.,Container;Exchange,,,,Group,,,,
+container_doc_library,SharePoint Document Library,CONTAINER,Logical document library container within a SharePoint site.,Container;SharePoint,,,,Group,,,,
+container_onedrive_library,OneDrive Document Library,CONTAINER,Logical personal library container within OneDrive.,Container;OneDrive,,,,User,,,,
+# ============================================================
+# FOLDERS
+# ============================================================
+folder_teams_chat_files,Microsoft Teams Chat Files folder,FOLDER,Default OneDrive folder for files shared in Teams chat.,Folder;Teams;OneDrive,,,,User,,,,
+folder_channel_general,General channel folder,FOLDER,Default SharePoint folder for a standard channel.,Folder;Teams;SharePoint,,,,Group,,,,
+folder_recordings,Recordings folder,FOLDER,Default folder for meeting recordings and transcripts.,Folder;Meetings,,,,User;Group,,,,
+# ============================================================
+# SCENARIOS
+# ============================================================
+scenario_teams_chat,Teams Chat,SCENARIO,Teams 1:1 and group chat scenario.,Teams;Scenario;Chat,,,,User,,,,
+scenario_teams_channel_standard,Teams Standard Channel,SCENARIO,Teams standard channel collaboration scenario.,Teams;Scenario;Channel,,,,Group,,,,
+scenario_teams_channel_private,Teams Private Channel,SCENARIO,Teams private channel collaboration scenario.,Teams;Scenario;Channel,,,,Group,,,,
+scenario_teams_channel_shared,Teams Shared Channel,SCENARIO,Teams shared channel collaboration scenario.,Teams;Scenario;Channel,,,,Group,,,,
+scenario_teams_meeting_private,Teams Private Meeting,SCENARIO,Private or scheduled Teams meeting scenario.,Teams;Scenario;Meeting,,,,User,,,,
+scenario_teams_meeting_channel,Teams Channel Meeting,SCENARIO,Channel-based Teams meeting scenario.,Teams;Scenario;Meeting,,,,Group,,,,
+scenario_outlook_mail,Outlook Mail,SCENARIO,Email scenario in Outlook and Exchange.,Outlook;Scenario;Mail,,,,User,,,,
+scenario_outlook_calendar,Outlook Calendar,SCENARIO,Calendar scenario in Outlook and Exchange.,Outlook;Scenario;Calendar,,,,User,,,,
+scenario_loop_component_teams,Loop Component in Teams,SCENARIO,Loop component embedded in Teams chat or meeting.,Loop;Teams;Scenario,,,,User,,,,
+scenario_forms_survey,Forms Survey,SCENARIO,Forms survey and response scenario.,Forms;Scenario,,,,User,,,,
+scenario_planner_task,Planner Task,SCENARIO,Planner task and attachment scenario.,Planner;Scenario,,,,Group,,,,
+scenario_copilot_interaction,Copilot Interaction,SCENARIO,Prompt and response interaction scenario in Microsoft 365 Copilot.,Copilot;Scenario,,,,User,,,,
+# ============================================================
+# DATA TYPES — Granular
+# ============================================================
+data_channel_file,Channel File,DATA_TYPE,File stored in a Teams channel-backed SharePoint library.,Teams;Files,,,,Group,,,,
+data_chat_shared_file,Chat Shared File,DATA_TYPE,File shared in Teams chat stored in a sender OneDrive folder.,Teams;Files,,,,User,,,,
+data_meeting_recording_private,Private Meeting Recording,DATA_TYPE,Recording from a private Teams meeting.,Meetings;Recording,,,,User,,,.mp4,
+data_meeting_recording_channel,Channel Meeting Recording,DATA_TYPE,Recording from a channel meeting.,Meetings;Recording,,,,Group,,,.mp4,
+data_meeting_transcript_private,Private Meeting Transcript,DATA_TYPE,Transcript from a private Teams meeting.,Meetings;Transcript,,,,User,,,.vtt,
+data_meeting_transcript_channel,Channel Meeting Transcript,DATA_TYPE,Transcript from a channel meeting.,Meetings;Transcript,,,,Group,,,.vtt,
+data_meeting_chat_message,Meeting Chat Message,DATA_TYPE,Message posted in meeting chat.,Teams;Meetings;Chat,,,,User,,,,
+data_loop_component,Loop Component,DATA_TYPE,Loop component content object.,Loop;RealTime,,,,User,,,.loop;.fluid,
+data_planner_task_attachment,Planner Task Attachment,DATA_TYPE,File attachment associated with a Planner task.,Planner;Files,,,,Group,,,,
+data_copilot_interaction_record,Copilot Interaction Record,DATA_TYPE,"Prompt and response interaction record captured for audit/compliance.",Copilot;Audit,,,,User,,,,
+data_accessed_resource,Copilot Accessed Resource Reference,DATA_TYPE,Reference to resources accessed during Copilot grounding.,Copilot;Audit,,,,,,,,
+# ============================================================
+# FEATURES — Generic
+# ============================================================
+feature_comments,Comments,FEATURE,Commenting feature for collaborative content.,Collaboration;Comments,,,,,,,,
+feature_mentions,@mentions,FEATURE,Mentioning feature in collaborative apps.,Collaboration;Mentions,,,,,,,,
+feature_real_time_coauthoring,Real-time co-authoring,FEATURE,Multiple users editing content together in real time.,Collaboration;Realtime,,,,,,,,
+feature_compliance_copy,Compliance Copy,FEATURE,Compliance copy capability for regulated workloads.,Compliance,,,,,,,,
+feature_audit_logging,Audit Logging,FEATURE,Audit logging capability for admin and user activities.,Audit,,,,,,,,
+# ============================================================
+# SERVICES — Additional
+# ============================================================
+service_entra_id,Microsoft Entra ID,SERVICE,Identity and access service for Microsoft 365.,Identity,,https://learn.microsoft.com/en-us/entra/fundamentals/whatis,,,,,
+service_purview_audit,Microsoft Purview Audit,SERVICE,Audit service for Microsoft 365 and AI activities.,Purview;Audit,,https://learn.microsoft.com/en-us/purview/audit-copilot,,,,,
+# ============================================================
+# LIMITS
+# ============================================================
+limit_sp_file_size,SharePoint and OneDrive file size limit,LIMIT,Represents maximum supported file size in SharePoint and OneDrive.,Limits,,,,,,,,
+limit_od_storage_base,OneDrive base storage limit,LIMIT,Represents base OneDrive storage allocation.,Limits,,,,,,,,
